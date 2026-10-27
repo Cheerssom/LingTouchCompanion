@@ -1,0 +1,25 @@
+{
+ "assembled_overlaps_mm3": {
+  "tray/cover": 0.0,
+  "tray/tenon": 0.0,
+  "tray/key_locked": 0.0,
+  "cover/tenon": 0.0,
+  "cover/key_locked": -0.0,
+  "tenon/key_locked": 0.0
+ },
+ "tenon_insert_path_max_overlap_mm3": 0.0,
+ "key_insert_path_max_overlap_mm3": 0.0,
+ "key_turn_max_overlap_mm3": 0.0,
+ "locked_key_out_0.6mm_overlap_mm3": 1.5106,
+ "locked_key_out_3mm_overlap_mm3": 0.7553,
+ "tenon_out_0.6mm_vs_locked_key_mm3": 1.4997,
+ "tenon_deeper_0.4mm_vs_blind_end_mm3": 2.555,
+ "cover_lift_free_play_mm": 0.898,
+ "cover_lift_free_play_tight_tenon_mm": 0.449,
+ "tight_tenon_insert_path_max_overlap_mm3": 0.0,
+ "cover_lift_1.5mm_vs_tenon_mm3": 16.5019,
+ "axial_play_key_mm": 0.4,
+ "bar_overlap_behind_lip_mm": 1.501,
+ "knob_overlap_on_lip_when_upright_mm": 0.5,
+ "all_checks_pass": true
+}
