@@ -1,0 +1,460 @@
+{
+  "dimensions_mm": {
+    "axis_z": 5.527000000000001,
+    "split_z": 0,
+    "cover_seam_x": 61.51599999999999,
+    "slope_x": [
+      56.565999999999995,
+      61.51599999999999
+    ],
+    "slope_z": [
+      26.504,
+      21.554000000000002
+    ],
+    "body_length": 272.89,
+    "grip_section": [
+      38.266,
+      32.054
+    ],
+    "tail_section": [
+      44.0,
+      32.054
+    ],
+    "sections": {
+      "array": {
+        "x": 34,
+        "width": 39.266,
+        "height": 37.004000000000005,
+        "perimeter": 138.22045020308693,
+        "bottom": -10.5,
+        "top": 26.504,
+        "bottom_outer_radius": 13.47,
+        "top_outer_radius": 3.21
+      },
+      "grip": {
+        "x": 90,
+        "width": 38.266,
+        "height": 32.054,
+        "perimeter": 126.7325235785377,
+        "bottom": -10.5,
+        "top": 21.554000000000002,
+        "bottom_outer_radius": 10.87,
+        "top_outer_radius": 5.33
+      },
+      "power_bank": {
+        "x": 175,
+        "width": 44.0,
+        "height": 32.054,
+        "perimeter": 146.92274335891153,
+        "bottom": -10.5,
+        "top": 21.554000000000002,
+        "bottom_outer_radius": 3.02,
+        "top_outer_radius": 3.02
+      }
+    },
+    "pb_body_x": [
+      149.39,
+      228.39
+    ],
+    "pins": {
+      "Front_tenon": {
+        "clearance_per_face": 0.2,
+        "x": -4.175,
+        "half": 18.58322663438411,
+        "width": 4.45,
+        "waist": 2.85,
+        "height": 7.0,
+        "length": 39.16645326876822,
+        "direction": 1
+      },
+      "Rear_tenon": {
+        "clearance_per_face": 0.2,
+        "x": 232.815,
+        "half": 22.0,
+        "width": 4.95,
+        "waist": 3.35,
+        "height": 7.0,
+        "length": 46.0,
+        "direction": -1
+      },
+      "Middle_tenon": {
+        "clearance_per_face": 0.2,
+        "x": 61.51599999999999,
+        "half": 19.133,
+        "width": 8.0,
+        "seam_bottom": 5.0,
+        "vertical_thickness": 5.0,
+        "end_top": 14.0,
+        "length": 38.266,
+        "direction": 1
+      }
+    },
+    "windows": [
+      {
+        "names": [
+          "U31",
+          "U34",
+          "U37"
+        ],
+        "a": [
+          23.46599919999999,
+          -15.61600002
+        ],
+        "b": [
+          45.16599967999999,
+          -6.716000019999997
+        ]
+      },
+      {
+        "names": [
+          "U32",
+          "U35",
+          "U38"
+        ],
+        "a": [
+          23.46599919999999,
+          -4.615999159999999
+        ],
+        "b": [
+          45.16599967999999,
+          4.284000840000003
+        ]
+      },
+      {
+        "names": [
+          "U33",
+          "U36",
+          "U39"
+        ],
+        "a": [
+          23.46599919999999,
+          6.383999159999997
+        ],
+        "b": [
+          45.16599967999999,
+          15.283999159999999
+        ]
+      },
+      {
+        "names": [
+          "U48"
+        ],
+        "a": [
+          47.465999459999985,
+          -5.046000840000003
+        ],
+        "b": [
+          54.16599945999999,
+          3.8539991599999994
+        ]
+      }
+    ],
+    "switch_center": [
+      15.916000679999996,
+      -0.3810000000000002
+    ],
+    "switch_diameter": 5.0
+  },
+  "print_parts": {
+    "Tray": {
+      "volume_mm3": 37811.94,
+      "print_extents_mm": [
+        272.89,
+        44.0,
+        14.504
+      ],
+      "one_watertight_body": true,
+      "print_bounds_mm": [
+        [
+          10.0,
+          10.0,
+          0.0
+        ],
+        [
+          282.88999938964844,
+          54.0,
+          14.504000000000001
+        ]
+      ]
+    },
+    "Front_cover": {
+      "volume_mm3": 28362.55,
+      "print_extents_mm": [
+        97.516,
+        39.266,
+        26.504
+      ],
+      "one_watertight_body": true,
+      "print_bounds_mm": [
+        [
+          10.0,
+          66.0,
+          0.0
+        ],
+        [
+          107.51599884033203,
+          105.26599884033203,
+          26.503999710083008
+        ]
+      ]
+    },
+    "Rear_cover": {
+      "volume_mm3": 32701.39,
+      "print_extents_mm": [
+        175.374,
+        44.0,
+        21.554
+      ],
+      "one_watertight_body": true,
+      "print_bounds_mm": [
+        [
+          119.51599884033203,
+          66.0,
+          0.0
+        ],
+        [
+          294.8899982299805,
+          110.0,
+          21.554000854492188
+        ]
+      ]
+    },
+    "Front_tenon": {
+      "volume_mm3": 1000.7,
+      "print_extents_mm": [
+        4.45,
+        39.166,
+        7.0
+      ],
+      "one_watertight_body": true,
+      "print_bounds_mm": [
+        [
+          10.0,
+          122.0,
+          0.0
+        ],
+        [
+          14.450000002980232,
+          161.16645326876824,
+          7.0
+        ]
+      ]
+    },
+    "Rear_tenon": {
+      "volume_mm3": 1336.3,
+      "print_extents_mm": [
+        4.95,
+        46.0,
+        7.0
+      ],
+      "one_watertight_body": true,
+      "print_bounds_mm": [
+        [
+          26.450000002980232,
+          122.0,
+          0.0
+        ],
+        [
+          31.400000005960464,
+          168.0,
+          7.0
+        ]
+      ]
+    },
+    "Middle_tenon": {
+      "volume_mm3": 1524.52,
+      "print_extents_mm": [
+        8.0,
+        8.6,
+        38.266
+      ],
+      "one_watertight_body": true,
+      "print_bounds_mm": [
+        [
+          43.400000005960464,
+          122.0,
+          0.0
+        ],
+        [
+          51.400000005960464,
+          130.60000000149012,
+          38.266
+        ]
+      ]
+    }
+  },
+  "collisions_mm3": [],
+  "print_transforms": {
+    "Tray": {
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation": [
+        46.0,
+        32.0,
+        10.5
+      ]
+    },
+    "Front_cover": {
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "translation": [
+        46.0,
+        85.63299942016602,
+        26.503999710083008
+      ]
+    },
+    "Rear_cover": {
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "translation": [
+        57.99999884033204,
+        88.0,
+        21.554000854492188
+      ]
+    },
+    "Front_tenon": {
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation": [
+        16.400000001490117,
+        141.58322663438412,
+        3.5
+      ]
+    },
+    "Rear_tenon": {
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation": [
+        -203.88999999552965,
+        145.0,
+        3.5
+      ]
+    },
+    "Middle_tenon": {
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "translation": [
+        -14.115999994039527,
+        135.60000000149012,
+        19.133
+      ]
+    }
+  },
+  "plate_max_mm": [
+    294.89,
+    168.0,
+    38.266
+  ],
+  "intentional_interfaces": [
+    "PCB bottom on ledges/pads Z=0",
+    "tray pin through PCB hole into cover-post socket; cover pad 0.20 above board",
+    "front/rear hourglass tenons across the tray/cover split; rear tenon blocks open tail",
+    "middle tenon across the front/rear cover seam, flat top and 45-degree notch"
+  ],
+  "nominal_clearances_mm": {
+    "pcb_side": 0.35,
+    "module_window": 0.35,
+    "bank": 0.35,
+    "tenon_per_face": 0.2,
+    "pcb_top_play": 0.2,
+    "pcb_pin_in_hole_diametral": 0.19999999999999996,
+    "pin_in_socket_diametral": 0.30000000000000004,
+    "pin_tip_to_socket_bottom": 0.19999999999999996
+  },
+  "source_sha256": {
+    ".pcba-workflow\\pcb1_2-review-20261018\\PCB1_2_review.step": "142a1a8318d4d0ab775b2379cd5d0310eadcb633db745d7d33cd97ecf02daf72",
+    "3mf\\Handle_NewPCB_2026-10-20\\references\\Braille_Module_Reference.pdf": "1023de23891d9c1ee49d44fdf72487f79399e4074987c87cec90a39941b0b1b0",
+    "3mf\\Handle_NewPCB_2026-10-20\\references\\PCB1_2_module_socket_measurements.json": "c24e1b8a5cb285ced754bc098ea2c2f24341beef31a93c000747671ab3267071",
+    ".pcba-workflow\\pcb1_2-recheck-20261018\\live-check-evidence.json": "94579274c389a6632ea570b538c30b78dba9d7f5f38b7448a9f4002744356678"
+  }
+}

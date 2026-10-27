@@ -1,0 +1,5996 @@
+{
+  "components": {
+    "C1": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -4975,
+      "y": -1926.7,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge351",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I42",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "1ebbf604b4ecfbe6e14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1ebbf604b4ecfbe6e15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C5": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -4935,
+      "y": -1802.7,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge355",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I46",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "0e66b845a23cea83e14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0e66b845a23cea83e15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C6": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -2275.5,
+      "y": -1167.9,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge356",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I47",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "1caf5f550e346a3ce14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1caf5f550e346a3ce15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C7": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -2245,
+      "y": -2270,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge357",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I48",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "ac74cf7c9838b29ee14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ac74cf7c9838b29ee15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C33": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1500,
+      "y": -1785,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge329",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I48",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "58189066330b7e33e14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "58189066330b7e33e15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C35": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -1455,
+      "y": -2140,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge330",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I49",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "24a6cd2ab6146d0fe14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "24a6cd2ab6146d0fe15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C36": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -810,
+      "y": -1970,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge332",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I51",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "e935d2ad1c818d53e14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "e935d2ad1c818d53e15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C41": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -1890,
+      "y": -1525,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge264",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I7",
+        "DeviceName": "{\"name\":\"GRM32ER61C476KE15L\",\"source\":\"\",\"uuid\":\"97cd62a5f0d61a04\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "fd93a25d537c21f6e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fd93a25d537c21f6e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C43": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -480,
+      "y": -2105,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge265",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I9",
+        "DeviceName": "{\"name\":\"GRM32ER61C476KE15L\",\"source\":\"\",\"uuid\":\"97cd62a5f0d61a04\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "8f8a44ec099761d5e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8f8a44ec099761d5e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C59": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -865,
+      "y": -1725,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge324",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I43",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "4a0506c1553a0ca5e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4a0506c1553a0ca5e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C60": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -720,
+      "y": -1725,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge325",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I44",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "bfedf6a8c02223fce7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "bfedf6a8c02223fce8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C61": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -1665,
+      "y": -1705,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge326",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I45",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "cd1ad0bf6d99fd07e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cd1ad0bf6d99fd07e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C62": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -1595,
+      "y": -1865,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge331",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I50",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "dc88f328212eba00e14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "dc88f328212eba00e15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C63": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -720,
+      "y": -2095,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge327",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I46",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "f3727039ba03826be7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f3727039ba03826be8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C72": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1045,
+      "y": -1885,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge336",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I55",
+        "DeviceName": "{\"name\":\"CL10C470JB8NNNC\",\"source\":\"\",\"uuid\":\"ec976d295c8edbc4\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "72f82b581b012f50e14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "72f82b581b012f50e15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C75": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1725,
+      "y": -2050,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge153",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I26",
+        "DeviceName": "{\"name\":\"6SVPC330M\",\"source\":\"\",\"uuid\":\"c2c2114cd7aa06a9\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "493d1c68a9972748e16": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "493d1c68a9972748e17": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C80": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -505,
+      "y": -1470,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge320",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I666",
+        "DeviceName": "{\"name\":\"25SVPF47M\",\"source\":\"\",\"uuid\":\"bc16572cef06dbbc\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "b464ccbfc4458105e16": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b464ccbfc4458105e17": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C82": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -790,
+      "y": -1485,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge333",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I52",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "19bca652f3d6b1ebe14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "19bca652f3d6b1ebe15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C84": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -368.8189,
+      "y": -1913.9764,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge271",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I10",
+        "DeviceName": "{\"name\":\"GRM32ER61C476KE15L\",\"source\":\"\",\"uuid\":\"97cd62a5f0d61a04\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "42735f8ef5f49dfde7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "42735f8ef5f49dfde8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C91": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1210,
+      "y": -1700,
+      "angle": -90,
+      "attrs": {
+        "Unique ID": "gge328",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I47",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "35e1ba2dea90dbc4e14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "35e1ba2dea90dbc4e15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C92": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -575,
+      "y": -1725,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge334",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I53",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "e1b611ca44a6cedbe7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "e1b611ca44a6cedbe8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C93": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -430,
+      "y": -1725,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge335",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I54",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "55606750902cd203e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "55606750902cd203e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C94": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -237.5197,
+      "y": -2033.1102,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge381",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$6I12",
+        "DeviceName": "{\"name\":\"0603B152K500NT\",\"source\":\"\",\"uuid\":\"8de75b5908b46f60\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "fd82d881eed3f32ae14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fd82d881eed3f32ae15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C95": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -305.8268,
+      "y": -2091.1417,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge374",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$6I5",
+        "DeviceName": "{\"name\":\"CL10A105KB8NNNC\",\"source\":\"\",\"uuid\":\"941a67755292139a\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "898dd265c6cda7dbe14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "898dd265c6cda7dbe15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C97": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1895.9449,
+      "y": -1689.3701,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge390",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$6I21",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "a598cc276fdc70e4e14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a598cc276fdc70e4e15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "D2": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": 100,
+      "y": -1180,
+      "angle": -90,
+      "attrs": {
+        "Unique ID": "gge197",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I19",
+        "DeviceName": "{\"name\":\"IN-S63AT5A\",\"source\":\"\",\"uuid\":\"f45e23f46d673f33\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "810e19b31d5f8e64e21": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "810e19b31d5f8e64e22": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "L1": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1290,
+      "y": -1500,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge321",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I40",
+        "DeviceName": "{\"name\":\"IHLP2525CZER1R0M01\",\"source\":\"\",\"uuid\":\"1fb9f1f98841940d\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "c15e5b01bae02f24e9": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c15e5b01bae02f24e10": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R7": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -965,
+      "y": -1895,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge294",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I22",
+        "DeviceName": "{\"name\":\"FRC0603F8252TS\",\"source\":\"\",\"uuid\":\"ddd22eb10dce7a7b\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "4932253ea997b527e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4932253ea997b527e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R8": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1130,
+      "y": -1880,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge310",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I23",
+        "DeviceName": "{\"name\":\"0603WAF1692T5E\",\"source\":\"\",\"uuid\":\"91242b6b3af00b76\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "82b8c24ac6c934f1e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82b8c24ac6c934f1e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R9": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -1352.9921,
+      "y": -1831.7323,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge323",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I42",
+        "DeviceName": "{\"name\":\"0603WAF1782T5E\",\"source\":\"\",\"uuid\":\"490c4d55d72f4831\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "423a630b438f9422e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "423a630b438f9422e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R10": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -1347.9921,
+      "y": -1949.7244,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge281",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I34",
+        "DeviceName": "{\"name\":\"RT0603BRD0710KL\",\"source\":\"\",\"uuid\":\"53353ac363afdb46\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "c12ccfb4565355a4e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c12ccfb4565355a4e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R12": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1980,
+      "y": -2145,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge283",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I13",
+        "DeviceName": "{\"name\":\"RT0603BRD0710KL\",\"source\":\"\",\"uuid\":\"53353ac363afdb46\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "1ab245da58c40b0fe7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1ab245da58c40b0fe8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R32": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -2195,
+      "y": -1495,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge284",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I15",
+        "DeviceName": "{\"name\":\"RT0603BRD0710KL\",\"source\":\"\",\"uuid\":\"53353ac363afdb46\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "4c0c9891935e1207e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4c0c9891935e1207e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R38": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -1065,
+      "y": -1650,
+      "angle": 270,
+      "attrs": {
+        "Unique ID": "gge308",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I21",
+        "DeviceName": "{\"name\":\"0603WAF3012T5E\",\"source\":\"\",\"uuid\":\"a82f09ea8b79b865\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "b989d2c447146e32e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b989d2c447146e32e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U1": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -4800.0394,
+      "y": -2139.4488,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge90_0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I2",
+        "DeviceName": "{\"name\":\"SN74HC595DR\",\"source\":\"\",\"uuid\":\"219d6d930b0948f2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "8941a9d19e03951ae36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8941a9d19e03951ae51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U2": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -4780,
+      "y": -1285,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge90",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I3",
+        "DeviceName": "{\"name\":\"SN74HC595DR\",\"source\":\"\",\"uuid\":\"219d6d930b0948f2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "cfdd4bb75fdaed0fe36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "cfdd4bb75fdaed0fe51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U4": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -4800.0394,
+      "y": -2139.4488,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge92",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I5",
+        "DeviceName": "{\"name\":\"SN74HC595DR\",\"source\":\"\",\"uuid\":\"219d6d930b0948f2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "0985184c0242cdf4e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0985184c0242cdf4e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U5": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -4790,
+      "y": -1615,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge93",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I6",
+        "DeviceName": "{\"name\":\"SN74HC595DR\",\"source\":\"\",\"uuid\":\"219d6d930b0948f2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "fe3fb52bd68e5487e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe3fb52bd68e5487e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U6": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -2560.4724,
+      "y": -1275.5512,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge94",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I7",
+        "DeviceName": "{\"name\":\"SN74HC595DR\",\"source\":\"\",\"uuid\":\"219d6d930b0948f2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "ddd49107da97aa7ce36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddd49107da97aa7ce51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U7": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -2555.4724,
+      "y": -2139.4488,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge95",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I8",
+        "DeviceName": "{\"name\":\"SN74HC595DR\",\"source\":\"\",\"uuid\":\"219d6d930b0948f2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "09c6d68822fa105fe36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "09c6d68822fa105fe51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U8": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -2255,
+      "y": -1705,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge96",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I9",
+        "DeviceName": "{\"name\":\"SN74HC595DR\",\"source\":\"\",\"uuid\":\"219d6d930b0948f2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "f111ce29224ece82e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f111ce29224ece82e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U9": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -2560.4724,
+      "y": -1275.5512,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge99",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$5I2",
+        "DeviceName": "{\"name\":\"SN74HC595DR\",\"source\":\"\",\"uuid\":\"219d6d930b0948f2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "6692202b91bd0e4de36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6692202b91bd0e4de51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U16": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -4366.9685,
+      "y": -2139.4488,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge214_0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I10",
+        "DeviceName": "{\"name\":\"ULN2003A_C181730\",\"source\":\"\",\"uuid\":\"603e20072ebfc4fb\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "b03c095a91fd0d04e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b03c095a91fd0d04e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U18": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -4360,
+      "y": -1285,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge214_2",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I12",
+        "DeviceName": "{\"name\":\"ULN2003A_C181730\",\"source\":\"\",\"uuid\":\"603e20072ebfc4fb\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "b94434d74f2e4611e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b94434d74f2e4611e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U19": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -4366.9685,
+      "y": -2139.4488,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge214_3",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I13",
+        "DeviceName": "{\"name\":\"ULN2003A_C181730\",\"source\":\"\",\"uuid\":\"603e20072ebfc4fb\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "1d52a1449aac0df7e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1d52a1449aac0df7e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U21": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -2993.5433,
+      "y": -1275.5512,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge215",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I15",
+        "DeviceName": "{\"name\":\"ULN2003A_C181730\",\"source\":\"\",\"uuid\":\"603e20072ebfc4fb\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "781f507d6270e2bee36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "781f507d6270e2bee51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U22": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -2988.5433,
+      "y": -2139.4488,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge216",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I16",
+        "DeviceName": "{\"name\":\"ULN2003A_C181730\",\"source\":\"\",\"uuid\":\"603e20072ebfc4fb\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "422117a9ac2f6204e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "422117a9ac2f6204e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U24": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -2993.5433,
+      "y": -1275.5512,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge218",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$5I10",
+        "DeviceName": "{\"name\":\"ULN2003A_C181730\",\"source\":\"\",\"uuid\":\"603e20072ebfc4fb\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "9b9b82f4314ac408e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9b9b82f4314ac408e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U46": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -2555,
+      "y": -2140,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge103_0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$5I9",
+        "DeviceName": "{\"name\":\"SN74HC595DR\",\"source\":\"\",\"uuid\":\"219d6d930b0948f2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "4620e13c365bc31ee36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4620e13c365bc31ee51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U47": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -2668.5433,
+      "y": -1710,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge225",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$5I17",
+        "DeviceName": "{\"name\":\"ULN2003A_C181730\",\"source\":\"\",\"uuid\":\"603e20072ebfc4fb\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "41f9d38925090556e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "41f9d38925090556e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U49": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1035,
+      "y": -1700,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge104",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I2",
+        "DeviceName": "{\"name\":\"MP8795HGLE-Z\",\"source\":\"\",\"uuid\":\"a1d6c8b036e80096\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "00dbe7e2e262d00ce49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce52": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce53": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce54": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce55": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce56": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce57": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce58": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce59": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce60": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce61": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce62": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce63": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce64": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce65": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce66": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce67": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce68": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce69": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "00dbe7e2e262d00ce70": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U50": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -1590,
+      "y": -1985,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge235",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I31",
+        "DeviceName": "{\"name\":\"RT6253AHGJ6F\",\"source\":\"\",\"uuid\":\"533f177d61796226\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "5727160a63d4cee8e3": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "5727160a63d4cee8e4": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "5727160a63d4cee8e5": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "5727160a63d4cee8e6": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "5727160a63d4cee8e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "5727160a63d4cee8e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U52": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -130,
+      "y": -2130,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge237",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I39",
+        "DeviceName": "{\"name\":\"LM66100DCKR_C2869734\",\"source\":\"\",\"uuid\":\"c0728b5dda2653f4\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "d3691243d3142ab3e4": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "d3691243d3142ab3e5": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "d3691243d3142ab3e6": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "d3691243d3142ab3e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "d3691243d3142ab3e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "d3691243d3142ab3e9": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U57": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -95,
+      "y": -1910,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge372",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$6I3",
+        "DeviceName": "{\"name\":\"CH224A\",\"source\":\"\",\"uuid\":\"c2fbd57155725b7c\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "8e2c66fa884476f9e15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8e2c66fa884476f9e16": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8e2c66fa884476f9e17": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8e2c66fa884476f9e18": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8e2c66fa884476f9e19": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8e2c66fa884476f9e20": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8e2c66fa884476f9e21": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8e2c66fa884476f9e22": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8e2c66fa884476f9e23": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8e2c66fa884476f9e24": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "8e2c66fa884476f9e25": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U58": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -544.0157,
+      "y": -1925.1575,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge376",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$6I7",
+        "DeviceName": "{\"name\":\"TPS259470ARPWR\",\"source\":\"\",\"uuid\":\"c448fdde6fff75d7\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "caca17772324f4d9e4": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "caca17772324f4d9e5": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "caca17772324f4d9e6": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "caca17772324f4d9e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "caca17772324f4d9e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "caca17772324f4d9e9": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "caca17772324f4d9e10": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "caca17772324f4d9e11": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "caca17772324f4d9e12": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "caca17772324f4d9e13": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C9": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -2270.5,
+      "y": -1393.3,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge392",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$5I42",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "f2d27f5d79f88dace14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f2d27f5d79f88dace15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C31": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -2380,
+      "y": -1927.3,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge393",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$5I43",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "3d5576b0e74b4ce5e14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "3d5576b0e74b4ce5e15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R46": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -306.5748,
+      "y": -1843.1102,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge396",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$6I22",
+        "DeviceName": "{\"name\":\"0603WAF1241T5E\",\"source\":\"\",\"uuid\":\"1a2fe675621ce396\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "dfaedad85b68dee8e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "dfaedad85b68dee8e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "SW1": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -4428.3858,
+      "y": -1710,
+      "angle": 90,
+      "attrs": {
+        "Add into BOM": "no",
+        "Unique ID": "gge398",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I50",
+        "DeviceName": "{\"name\":\"TSA06131-250B532CA\",\"source\":\"\",\"uuid\":\"c628fced67e9fe4d\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "492d71ef17b04017e17": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "492d71ef17b04017e18": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "492d71ef17b04017e19": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "492d71ef17b04017e20": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C100": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -1075,
+      "y": -1835,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge403",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I60",
+        "DeviceName": "{\"name\":\"CL10C470JB8NNNC\",\"source\":\"\",\"uuid\":\"ec976d295c8edbc4\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "ec3161ecf9d8be75e14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ec3161ecf9d8be75e15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U51": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -850,
+      "y": -1825,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge400",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I57",
+        "DeviceName": "{\"name\":\"RT6253AHGJ6F\",\"source\":\"\",\"uuid\":\"901516db2ba8406c\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "0bf402f72a7be442e3": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0bf402f72a7be442e4": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0bf402f72a7be442e5": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0bf402f72a7be442e6": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0bf402f72a7be442e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0bf402f72a7be442e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "L2": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -1975,
+      "y": -1870,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge411",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I61",
+        "DeviceName": "{\"name\":\"MWSA0503S-4R7MT\",\"source\":\"\",\"uuid\":\"9e23fc052adcd297\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "be55b15afae0f922e5": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "be55b15afae0f922e6": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "J1": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": 100,
+      "y": -1930,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge412",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$6I26",
+        "DeviceName": "{\"name\":\"TYPE-C 6P(073)\",\"source\":\"\",\"uuid\":\"07f26352650f2a86\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "1418f31ca0b1af6de25": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1418f31ca0b1af6de26": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1418f31ca0b1af6de27": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1418f31ca0b1af6de28": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1418f31ca0b1af6de29": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1418f31ca0b1af6de30": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1418f31ca0b1af6de42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1418f31ca0b1af6de43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1418f31ca0b1af6de44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1418f31ca0b1af6de45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C8": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -2235.5,
+      "y": -1947.7,
+      "angle": -90,
+      "attrs": {
+        "Unique ID": "gge358",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I49",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "3b62741d0c96d6cde14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "3b62741d0c96d6cde15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C4": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -4975,
+      "y": -1917.1,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge354",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I45",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "4c8e94bad224430be14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4c8e94bad224430be15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C2": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -4240,
+      "y": -1520,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge352",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I43",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "2475dee754953c2be14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "2475dee754953c2be15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U17": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -4790,
+      "y": -1615,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge214_1",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I11",
+        "DeviceName": "{\"name\":\"ULN2003A_C181730\",\"source\":\"\",\"uuid\":\"603e20072ebfc4fb\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "1a1ccdcdb122f4b5e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1a1ccdcdb122f4b5e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "D3": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": 150,
+      "y": -2240,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge373",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$6I4",
+        "DeviceName": "{\"name\":\"SMF12A_C123800\",\"source\":\"\",\"uuid\":\"188b0cdb7d09be62\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "3b18e0649a02f5dbe13": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "3b18e0649a02f5dbe14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R14": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1210,
+      "y": -2145,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge297",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I7",
+        "DeviceName": "{\"name\":\"RCA0320RFLF\",\"source\":\"\",\"uuid\":\"53b6c6478c93e08a\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "46e37b5c07b082e5e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "46e37b5c07b082e5e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R5": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -950,
+      "y": -2140,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge298",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I5",
+        "DeviceName": "{\"name\":\"RCA0320RFLF\",\"source\":\"\",\"uuid\":\"53b6c6478c93e08a\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "d264892f23bc9bb0e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "d264892f23bc9bb0e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R13": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -805,
+      "y": -2135,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge296",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I6",
+        "DeviceName": "{\"name\":\"RCA0320RFLF\",\"source\":\"\",\"uuid\":\"53b6c6478c93e08a\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "1da9dcfd363ea4d5e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1da9dcfd363ea4d5e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "J_ESP_R": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1078.4252,
+      "y": -1265,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge341",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I39",
+        "DeviceName": "{\"name\":\"HC-PM254-8.5H-1x22PZ\",\"source\":\"\",\"uuid\":\"6cdfaf968fbb1347\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "ed096e02f713d214e30": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e31": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e32": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e33": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e34": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e35": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ed096e02f713d214e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "J_ESP_L": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1078.4252,
+      "y": -2265,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge340",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I38",
+        "DeviceName": "{\"name\":\"HC-PM254-8.5H-1x22PZ\",\"source\":\"\",\"uuid\":\"6cdfaf968fbb1347\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "a6dbbce459540e5ee30": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee31": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee32": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee33": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee34": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee35": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "a6dbbce459540e5ee51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "J_test": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1080,
+      "y": -1145,
+      "angle": 0,
+      "attrs": {
+        "Add into BOM": "no",
+        "Unique ID": "gge397",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I49",
+        "DeviceName": "{\"name\":\"CS-1165SDIG-1*22\",\"source\":\"\",\"uuid\":\"8355e4bbf25827bf\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "0c3b1d6ee72a6336e30": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e31": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e32": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e33": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e34": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e35": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0c3b1d6ee72a6336e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C32": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -4222,
+      "y": -1876.4,
+      "angle": -90,
+      "attrs": {
+        "Unique ID": "gge228",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I34",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "9a5d0a18584b55ade7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9a5d0a18584b55ade8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C34": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -940,
+      "y": -1590,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge229",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I18",
+        "Operating Temperature": "",
+        "DeviceName": "{\"name\":\"CL10A105KB8NNNC\",\"source\":\"\",\"uuid\":\"941a67755292139a\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "7ac83ba941668b01e14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "7ac83ba941668b01e15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C44": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -4630,
+      "y": -1876.9,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge228_0",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I35",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "651f93cc0e8d2714e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "651f93cc0e8d2714e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C45": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -4215,
+      "y": -1696.9,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge228_1",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I36",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "5d7e1d9c00b98c34e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "5d7e1d9c00b98c34e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C46": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -4672,
+      "y": -1907.5,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge228_2",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I37",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "b144d22a217ceac8e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b144d22a217ceac8e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C47": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -4770,
+      "y": -1878.1,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge228_3",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I38",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "839a1f6dd38cab9ae7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "839a1f6dd38cab9ae8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C48": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -3168.5,
+      "y": -2002.5,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge228_4",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I39",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "b5d942ac54f0e246e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b5d942ac54f0e246e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C49": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -3103.5,
+      "y": -2252.5,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge228_5",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I40",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "9a38dafb2dff9190e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9a38dafb2dff9190e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C50": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -2828.5,
+      "y": -1973.1,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge228_6",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I41",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "430db07132f77b8ee7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "430db07132f77b8ee8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C51": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -3018.5,
+      "y": -2003.6,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge228_7",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$5I34",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "6e4af8c80cd900b5e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "6e4af8c80cd900b5e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C58": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -2333.5,
+      "y": -1616.9,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge228_14",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$5I41",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "c2d1004c5438944be7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c2d1004c5438944be8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C65": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -220,
+      "y": -1715,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge413",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I668",
+        "DeviceName": "{\"name\":\"CL10A105KB8NNNC\",\"source\":\"\",\"uuid\":\"941a67755292139a\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "2fe7aa02e5c31bece14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "2fe7aa02e5c31bece15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C71": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1015,
+      "y": -1465,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge149",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I17",
+        "Operating Temperature": "",
+        "DeviceName": "{\"name\":\"CL10A105KB8NNNC\",\"source\":\"\",\"uuid\":\"941a67755292139a\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "fe78bc3a5ab476cfe14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fe78bc3a5ab476cfe15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C86": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -2045,
+      "y": -1980,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge258",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I12",
+        "DeviceName": "{\"name\":\"CL32A226KAJNNNE\",\"source\":\"\",\"uuid\":\"fd143af841abd3d2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "3aba5d4a6800fe74e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "3aba5d4a6800fe74e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C89": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -305,
+      "y": -2175,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge259",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I19",
+        "Operating Temperature": "",
+        "DeviceName": "{\"name\":\"CL10A105KB8NNNC\",\"source\":\"\",\"uuid\":\"941a67755292139a\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "f9d2886957861db0e14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f9d2886957861db0e15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "L3": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -560,
+      "y": -1765,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge399",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I56",
+        "DeviceName": "{\"name\":\"MWSA0503S-4R7MT\",\"source\":\"\",\"uuid\":\"9e23fc052adcd297\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "c35935a80ab8b9cce5": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c35935a80ab8b9cce6": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R1": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -1190,
+      "y": -1645,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge322",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I41",
+        "DeviceName": "{\"name\":\"RT0603BRD0710KL\",\"source\":\"\",\"uuid\":\"53353ac363afdb46\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "5514d4467b1531c3e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "5514d4467b1531c3e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R3": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -230,
+      "y": -1405,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge408",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I52",
+        "DeviceName": "{\"name\":\"RT0603BRD0710KL\",\"source\":\"\",\"uuid\":\"53353ac363afdb46\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "b7c3c6972458a1afe7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b7c3c6972458a1afe8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R6": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -245,
+      "y": -1590,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge295",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I33",
+        "DeviceName": "{\"name\":\"0603WAF3012T5E\",\"source\":\"\",\"uuid\":\"a82f09ea8b79b865\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "5fa9d6ebb55558eee7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "5fa9d6ebb55558eee8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R11": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -2170,
+      "y": -1720,
+      "angle": -90,
+      "attrs": {
+        "Unique ID": "gge407",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I51",
+        "DeviceName": "{\"name\":\"RT0603BRD0710KL\",\"source\":\"\",\"uuid\":\"53353ac363afdb46\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "03fd814e241e2686e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "03fd814e241e2686e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R25": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -2080,
+      "y": -1395,
+      "angle": -90,
+      "attrs": {
+        "Unique ID": "gge305",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I18",
+        "DeviceName": "{\"name\":\"0603WAF1241T5E\",\"source\":\"\",\"uuid\":\"1a2fe675621ce396\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "67bd1dde9b80abdce7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "67bd1dde9b80abdce8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R43": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -655,
+      "y": -2060,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge377",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$6I8",
+        "DeviceName": "{\"name\":\"RCA03100KFLF\",\"source\":\"\",\"uuid\":\"783e219a231c032d\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "0dbbc2ee1f324a46e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "0dbbc2ee1f324a46e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R44": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -460,
+      "y": -2060,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge378",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$6I9",
+        "DeviceName": "{\"name\":\"0603WAF3012T5E\",\"source\":\"\",\"uuid\":\"a82f09ea8b79b865\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "60614540b4b997f5e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "60614540b4b997f5e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R45": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -655,
+      "y": -2130,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge379",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$6I10",
+        "DeviceName": "{\"name\":\"0603WAF1692T5E\",\"source\":\"\",\"uuid\":\"91242b6b3af00b76\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "fd127ee9d2647c03e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "fd127ee9d2647c03e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R48": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -2014.8031,
+      "y": -1509.3701,
+      "angle": -90,
+      "attrs": {
+        "Unique ID": "gge388",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$6I19",
+        "Overload Voltage (Max)": "",
+        "Operating Temperature Range": "",
+        "DeviceName": "{\"name\":\"RCA03100KFLF\",\"source\":\"\",\"uuid\":\"783e219a231c032d\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "5271317cb05aa340e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "5271317cb05aa340e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R49": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -2000,
+      "y": -1685,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge410",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$6I25",
+        "DeviceName": "{\"name\":\"RT0603BRD0710KL\",\"source\":\"\",\"uuid\":\"53353ac363afdb46\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "555103abff69723be7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "555103abff69723be8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R50": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -1091.063,
+      "y": -1948.3465,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge401",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I58",
+        "Overload Voltage (Max)": "",
+        "Operating Temperature Range": "",
+        "DeviceName": "{\"name\":\"RCA03100KFLF\",\"source\":\"\",\"uuid\":\"783e219a231c032d\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "bb44ac29b047bf50e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "bb44ac29b047bf50e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "R51": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -1126.063,
+      "y": -2071.3386,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge402",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I59",
+        "DeviceName": "{\"name\":\"0603WAF1782T5E\",\"source\":\"\",\"uuid\":\"490c4d55d72f4831\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "1525bca95c6b9849e7": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1525bca95c6b9849e8": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U23": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -2668.5433,
+      "y": -1710,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge217",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I17",
+        "DeviceName": "{\"name\":\"ULN2003A_C181730\",\"source\":\"\",\"uuid\":\"603e20072ebfc4fb\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "82903e8ff8296693e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82903e8ff8296693e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U3": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -4780,
+      "y": -1285,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge91",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I4",
+        "DeviceName": "{\"name\":\"SN74HC595DR\",\"source\":\"\",\"uuid\":\"219d6d930b0948f2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "25d3cb1729559589e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "25d3cb1729559589e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C74": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -1645,
+      "y": -1475,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge152",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I25",
+        "DeviceName": "{\"name\":\"6SVPC330M\",\"source\":\"\",\"uuid\":\"c2c2114cd7aa06a9\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "e462955d195ed2dae16": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "e462955d195ed2dae17": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C76": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -1645,
+      "y": -1475,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge154",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$2I27",
+        "DeviceName": "{\"name\":\"6SVPC330M\",\"source\":\"\",\"uuid\":\"c2c2114cd7aa06a9\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "99e5157abc73b85fe16": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "99e5157abc73b85fe17": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "C3": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -4240,
+      "y": -1520,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge353",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I44",
+        "DeviceName": "{\"name\":\"CC0603KRX7R9BB104\",\"source\":\"\",\"uuid\":\"284d2b33894956fa\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "60d2eeabad5c90bce14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "60d2eeabad5c90bce15": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U20": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": -4360,
+      "y": -1285,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge214",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I14",
+        "DeviceName": "{\"name\":\"ULN2003A_C181730\",\"source\":\"\",\"uuid\":\"603e20072ebfc4fb\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "53e5d121ff239d88e36": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e37": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e38": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e39": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e40": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e41": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e42": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e43": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e44": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e45": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e46": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e47": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e48": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e49": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e50": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "53e5d121ff239d88e51": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U31": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -3999.252,
+      "y": -2134.6063,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge359",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I50",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "{\"name\":\"LT_TACTILE_MODULE_V2\",\"source\":\"\",\"uuid\":\"34e4831090622782\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "84d8d6c34e4b345ce101": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "84d8d6c34e4b345ce102": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "84d8d6c34e4b345ce103": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "84d8d6c34e4b345ce104": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "84d8d6c34e4b345ce105": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "84d8d6c34e4b345ce106": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "84d8d6c34e4b345ce107": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "84d8d6c34e4b345ce108": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "84d8d6c34e4b345ce109": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "84d8d6c34e4b345ce110": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "84d8d6c34e4b345ce111": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "84d8d6c34e4b345ce112": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U32": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -3999.252,
+      "y": -1701.5354,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge360",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I51",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "{\"name\":\"LT_TACTILE_MODULE_V2\",\"source\":\"\",\"uuid\":\"34e4831090622782\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "085316274f6c9fc5e101": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "085316274f6c9fc5e102": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "085316274f6c9fc5e103": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "085316274f6c9fc5e104": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "085316274f6c9fc5e105": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "085316274f6c9fc5e106": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "085316274f6c9fc5e107": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "085316274f6c9fc5e108": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "085316274f6c9fc5e109": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "085316274f6c9fc5e110": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "085316274f6c9fc5e111": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "085316274f6c9fc5e112": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U33": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -3999.252,
+      "y": -1268.4646,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge361",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I52",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "{\"name\":\"LT_TACTILE_MODULE_V2\",\"source\":\"\",\"uuid\":\"34e4831090622782\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "1c65ede4039e7dbbe101": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1c65ede4039e7dbbe102": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1c65ede4039e7dbbe103": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1c65ede4039e7dbbe104": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1c65ede4039e7dbbe105": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1c65ede4039e7dbbe106": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1c65ede4039e7dbbe107": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1c65ede4039e7dbbe108": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1c65ede4039e7dbbe109": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1c65ede4039e7dbbe110": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1c65ede4039e7dbbe111": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1c65ede4039e7dbbe112": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U34": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -3703.9764,
+      "y": -2134.6063,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge362",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I53",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "{\"name\":\"LT_TACTILE_MODULE_V2\",\"source\":\"\",\"uuid\":\"34e4831090622782\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "9c2494bd233e832fe101": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9c2494bd233e832fe102": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9c2494bd233e832fe103": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9c2494bd233e832fe104": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9c2494bd233e832fe105": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9c2494bd233e832fe106": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9c2494bd233e832fe107": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9c2494bd233e832fe108": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9c2494bd233e832fe109": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9c2494bd233e832fe110": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9c2494bd233e832fe111": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "9c2494bd233e832fe112": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U35": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -3703.9764,
+      "y": -1701.5354,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge363",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I54",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "{\"name\":\"LT_TACTILE_MODULE_V2\",\"source\":\"\",\"uuid\":\"34e4831090622782\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "eaf0bddbd8297ac9e101": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "eaf0bddbd8297ac9e102": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "eaf0bddbd8297ac9e103": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "eaf0bddbd8297ac9e104": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "eaf0bddbd8297ac9e105": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "eaf0bddbd8297ac9e106": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "eaf0bddbd8297ac9e107": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "eaf0bddbd8297ac9e108": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "eaf0bddbd8297ac9e109": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "eaf0bddbd8297ac9e110": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "eaf0bddbd8297ac9e111": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "eaf0bddbd8297ac9e112": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U36": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -3703.9764,
+      "y": -1268.4646,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge364",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I55",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "{\"name\":\"LT_TACTILE_MODULE_V2\",\"source\":\"\",\"uuid\":\"34e4831090622782\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "4f30ca9583e58ecae101": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4f30ca9583e58ecae102": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4f30ca9583e58ecae103": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4f30ca9583e58ecae104": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4f30ca9583e58ecae105": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4f30ca9583e58ecae106": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4f30ca9583e58ecae107": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4f30ca9583e58ecae108": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4f30ca9583e58ecae109": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4f30ca9583e58ecae110": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4f30ca9583e58ecae111": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "4f30ca9583e58ecae112": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U37": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -3408.7008,
+      "y": -2134.6063,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge365",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I56",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "{\"name\":\"LT_TACTILE_MODULE_V2\",\"source\":\"\",\"uuid\":\"34e4831090622782\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "642ad5e732419129e101": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "642ad5e732419129e102": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "642ad5e732419129e103": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "642ad5e732419129e104": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "642ad5e732419129e105": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "642ad5e732419129e106": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "642ad5e732419129e107": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "642ad5e732419129e108": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "642ad5e732419129e109": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "642ad5e732419129e110": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "642ad5e732419129e111": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "642ad5e732419129e112": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U38": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -3408.7008,
+      "y": -1701.5354,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge366",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$4I57",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "{\"name\":\"LT_TACTILE_MODULE_V2\",\"source\":\"\",\"uuid\":\"34e4831090622782\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "82d4b23328cc7ed2e101": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82d4b23328cc7ed2e102": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82d4b23328cc7ed2e103": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82d4b23328cc7ed2e104": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82d4b23328cc7ed2e105": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82d4b23328cc7ed2e106": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82d4b23328cc7ed2e107": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82d4b23328cc7ed2e108": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82d4b23328cc7ed2e109": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82d4b23328cc7ed2e110": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82d4b23328cc7ed2e111": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "82d4b23328cc7ed2e112": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U39": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -3408.7008,
+      "y": -1268.4646,
+      "angle": 180,
+      "attrs": {
+        "Unique ID": "gge394",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$5I44",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "{\"name\":\"LT_TACTILE_MODULE_V2\",\"source\":\"\",\"uuid\":\"34e4831090622782\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "c4b165658c7010d3e101": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c4b165658c7010d3e102": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c4b165658c7010d3e103": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c4b165658c7010d3e104": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c4b165658c7010d3e105": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c4b165658c7010d3e106": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c4b165658c7010d3e107": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c4b165658c7010d3e108": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c4b165658c7010d3e109": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c4b165658c7010d3e110": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c4b165658c7010d3e111": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c4b165658c7010d3e112": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "U48": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": -3054.3701,
+      "y": -1718.4646,
+      "angle": 0,
+      "attrs": {
+        "Unique ID": "gge395",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$5I45",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier": "",
+        "Supplier Part": "",
+        "DeviceName": "{\"name\":\"LT_TACTILE_MODULE_V2\",\"source\":\"\",\"uuid\":\"34e4831090622782\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "1493d33802eac877e101": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1493d33802eac877e102": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1493d33802eac877e103": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1493d33802eac877e104": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1493d33802eac877e105": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1493d33802eac877e106": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1493d33802eac877e107": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1493d33802eac877e108": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1493d33802eac877e109": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1493d33802eac877e110": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1493d33802eac877e111": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1493d33802eac877e112": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    },
+    "SW2": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "x": 53.0315,
+      "y": -1520.2756,
+      "angle": 90,
+      "attrs": {
+        "Unique ID": "gge199",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$3I30",
+        "DeviceName": "{\"name\":\"SK-12D07-VG 4 NS PA\",\"source\":\"\",\"uuid\":\"6863a2ffa9eaf1cc\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "c6125ade288c3351e10": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c6125ade288c3351e11": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c6125ade288c3351e12": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c6125ade288c3351e13": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "c6125ade288c3351e14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true
+    }
+  },
+  "module_pads": [
+    {
+      "groupId": 0,
+      "netName": "",
+      "layerId": 12,
+      "num": "1",
+      "centerX": -99.606,
+      "centerY": 113.189,
+      "padAngle": 0,
+      "hole": {
+        "holeType": "ROUND",
+        "width": 27.559,
+        "height": 27.559,
+        "cornerRadius": 11.811
+      },
+      "defaultPad": {
+        "padType": "RECT",
+        "width": 39.37,
+        "height": 39.37,
+        "radius": 0
+      },
+      "specialPad": [],
+      "padOffsetX": 0,
+      "padOffsetY": 0,
+      "relativeAngle": 0,
+      "plated": true,
+      "padType": "NORMAL",
+      "topSolderExpansion": null,
+      "bottomSolderExpansion": null,
+      "topPasteExpansion": null,
+      "bottomPasteExpansion": null,
+      "locked": false,
+      "zIndex": 100,
+      "connectMode": null,
+      "spokeSpace": null,
+      "spokeWidth": null,
+      "spokeAngle": null,
+      "unusedInnerLayers": [],
+      "padLen": 0,
+      "propagationDelay": 0,
+      "attrsMap": {}
+    },
+    {
+      "groupId": 0,
+      "netName": "",
+      "layerId": 12,
+      "num": "2",
+      "centerX": -99.606,
+      "centerY": 63.189,
+      "padAngle": 0,
+      "hole": {
+        "holeType": "ROUND",
+        "width": 27.559,
+        "height": 27.559,
+        "cornerRadius": 11.811
+      },
+      "defaultPad": {
+        "padType": "ELLIPSE",
+        "width": 39.37,
+        "height": 39.37
+      },
+      "specialPad": [],
+      "padOffsetX": 0,
+      "padOffsetY": 0,
+      "relativeAngle": 0,
+      "plated": true,
+      "padType": "NORMAL",
+      "topSolderExpansion": null,
+      "bottomSolderExpansion": null,
+      "topPasteExpansion": null,
+      "bottomPasteExpansion": null,
+      "locked": false,
+      "zIndex": 101,
+      "connectMode": null,
+      "spokeSpace": null,
+      "spokeWidth": null,
+      "spokeAngle": null,
+      "unusedInnerLayers": [],
+      "padLen": 0,
+      "propagationDelay": 0,
+      "attrsMap": {}
+    },
+    {
+      "groupId": 0,
+      "netName": "",
+      "layerId": 12,
+      "num": "3",
+      "centerX": -99.606,
+      "centerY": 13.189,
+      "padAngle": 0,
+      "hole": {
+        "holeType": "ROUND",
+        "width": 27.559,
+        "height": 27.559,
+        "cornerRadius": 11.811
+      },
+      "defaultPad": {
+        "padType": "ELLIPSE",
+        "width": 39.37,
+        "height": 39.37
+      },
+      "specialPad": [],
+      "padOffsetX": 0,
+      "padOffsetY": 0,
+      "relativeAngle": 0,
+      "plated": true,
+      "padType": "NORMAL",
+      "topSolderExpansion": null,
+      "bottomSolderExpansion": null,
+      "topPasteExpansion": null,
+      "bottomPasteExpansion": null,
+      "locked": false,
+      "zIndex": 102,
+      "connectMode": null,
+      "spokeSpace": null,
+      "spokeWidth": null,
+      "spokeAngle": null,
+      "unusedInnerLayers": [],
+      "padLen": 0,
+      "propagationDelay": 0,
+      "attrsMap": {}
+    },
+    {
+      "groupId": 0,
+      "netName": "",
+      "layerId": 12,
+      "num": "4",
+      "centerX": -99.606,
+      "centerY": -36.811,
+      "padAngle": 0,
+      "hole": {
+        "holeType": "ROUND",
+        "width": 27.559,
+        "height": 27.559,
+        "cornerRadius": 11.811
+      },
+      "defaultPad": {
+        "padType": "ELLIPSE",
+        "width": 39.37,
+        "height": 39.37
+      },
+      "specialPad": [],
+      "padOffsetX": 0,
+      "padOffsetY": 0,
+      "relativeAngle": 0,
+      "plated": true,
+      "padType": "NORMAL",
+      "topSolderExpansion": null,
+      "bottomSolderExpansion": null,
+      "topPasteExpansion": null,
+      "bottomPasteExpansion": null,
+      "locked": false,
+      "zIndex": 103,
+      "connectMode": null,
+      "spokeSpace": null,
+      "spokeWidth": null,
+      "spokeAngle": null,
+      "unusedInnerLayers": [],
+      "padLen": 0,
+      "propagationDelay": 0,
+      "attrsMap": {}
+    },
+    {
+      "groupId": 0,
+      "netName": "",
+      "layerId": 12,
+      "num": "5",
+      "centerX": -99.606,
+      "centerY": -86.811,
+      "padAngle": 0,
+      "hole": {
+        "holeType": "ROUND",
+        "width": 27.559,
+        "height": 27.559,
+        "cornerRadius": 11.811
+      },
+      "defaultPad": {
+        "padType": "ELLIPSE",
+        "width": 39.37,
+        "height": 39.37
+      },
+      "specialPad": [],
+      "padOffsetX": 0,
+      "padOffsetY": 0,
+      "relativeAngle": 0,
+      "plated": true,
+      "padType": "NORMAL",
+      "topSolderExpansion": null,
+      "bottomSolderExpansion": null,
+      "topPasteExpansion": null,
+      "bottomPasteExpansion": null,
+      "locked": false,
+      "zIndex": 104,
+      "connectMode": null,
+      "spokeSpace": null,
+      "spokeWidth": null,
+      "spokeAngle": null,
+      "unusedInnerLayers": [],
+      "padLen": 0,
+      "propagationDelay": 0,
+      "attrsMap": {}
+    },
+    {
+      "groupId": 0,
+      "netName": "",
+      "layerId": 12,
+      "num": "6",
+      "centerX": -99.606,
+      "centerY": -136.811,
+      "padAngle": 0,
+      "hole": {
+        "holeType": "ROUND",
+        "width": 27.559,
+        "height": 27.559,
+        "cornerRadius": 11.811
+      },
+      "defaultPad": {
+        "padType": "ELLIPSE",
+        "width": 39.37,
+        "height": 39.37
+      },
+      "specialPad": [],
+      "padOffsetX": 0,
+      "padOffsetY": 0,
+      "relativeAngle": 0,
+      "plated": true,
+      "padType": "NORMAL",
+      "topSolderExpansion": null,
+      "bottomSolderExpansion": null,
+      "topPasteExpansion": null,
+      "bottomPasteExpansion": null,
+      "locked": false,
+      "zIndex": 105,
+      "connectMode": null,
+      "spokeSpace": null,
+      "spokeWidth": null,
+      "spokeAngle": null,
+      "unusedInnerLayers": [],
+      "padLen": 0,
+      "propagationDelay": 0,
+      "attrsMap": {}
+    },
+    {
+      "groupId": 0,
+      "netName": "",
+      "layerId": 12,
+      "num": "7",
+      "centerX": 99.606,
+      "centerY": 136.811,
+      "padAngle": 0,
+      "hole": {
+        "holeType": "ROUND",
+        "width": 27.559,
+        "height": 27.559,
+        "cornerRadius": 11.811
+      },
+      "defaultPad": {
+        "padType": "RECT",
+        "width": 39.37,
+        "height": 39.37,
+        "radius": 0
+      },
+      "specialPad": [],
+      "padOffsetX": 0,
+      "padOffsetY": 0,
+      "relativeAngle": 0,
+      "plated": true,
+      "padType": "NORMAL",
+      "topSolderExpansion": null,
+      "bottomSolderExpansion": null,
+      "topPasteExpansion": null,
+      "bottomPasteExpansion": null,
+      "locked": false,
+      "zIndex": 106,
+      "connectMode": null,
+      "spokeSpace": null,
+      "spokeWidth": null,
+      "spokeAngle": null,
+      "unusedInnerLayers": [],
+      "padLen": 0,
+      "propagationDelay": 0,
+      "attrsMap": {}
+    },
+    {
+      "groupId": 0,
+      "netName": "",
+      "layerId": 12,
+      "num": "8",
+      "centerX": 99.606,
+      "centerY": 86.811,
+      "padAngle": 0,
+      "hole": {
+        "holeType": "ROUND",
+        "width": 27.559,
+        "height": 27.559,
+        "cornerRadius": 11.811
+      },
+      "defaultPad": {
+        "padType": "ELLIPSE",
+        "width": 39.37,
+        "height": 39.37
+      },
+      "specialPad": [],
+      "padOffsetX": 0,
+      "padOffsetY": 0,
+      "relativeAngle": 0,
+      "plated": true,
+      "padType": "NORMAL",
+      "topSolderExpansion": null,
+      "bottomSolderExpansion": null,
+      "topPasteExpansion": null,
+      "bottomPasteExpansion": null,
+      "locked": false,
+      "zIndex": 107,
+      "connectMode": null,
+      "spokeSpace": null,
+      "spokeWidth": null,
+      "spokeAngle": null,
+      "unusedInnerLayers": [],
+      "padLen": 0,
+      "propagationDelay": 0,
+      "attrsMap": {}
+    },
+    {
+      "groupId": 0,
+      "netName": "",
+      "layerId": 12,
+      "num": "9",
+      "centerX": 99.606,
+      "centerY": 36.811,
+      "padAngle": 0,
+      "hole": {
+        "holeType": "ROUND",
+        "width": 27.559,
+        "height": 27.559,
+        "cornerRadius": 11.811
+      },
+      "defaultPad": {
+        "padType": "ELLIPSE",
+        "width": 39.37,
+        "height": 39.37
+      },
+      "specialPad": [],
+      "padOffsetX": 0,
+      "padOffsetY": 0,
+      "relativeAngle": 0,
+      "plated": true,
+      "padType": "NORMAL",
+      "topSolderExpansion": null,
+      "bottomSolderExpansion": null,
+      "topPasteExpansion": null,
+      "bottomPasteExpansion": null,
+      "locked": false,
+      "zIndex": 108,
+      "connectMode": null,
+      "spokeSpace": null,
+      "spokeWidth": null,
+      "spokeAngle": null,
+      "unusedInnerLayers": [],
+      "padLen": 0,
+      "propagationDelay": 0,
+      "attrsMap": {}
+    },
+    {
+      "groupId": 0,
+      "netName": "",
+      "layerId": 12,
+      "num": "10",
+      "centerX": 99.606,
+      "centerY": -13.189,
+      "padAngle": 0,
+      "hole": {
+        "holeType": "ROUND",
+        "width": 27.559,
+        "height": 27.559,
+        "cornerRadius": 11.811
+      },
+      "defaultPad": {
+        "padType": "ELLIPSE",
+        "width": 39.37,
+        "height": 39.37
+      },
+      "specialPad": [],
+      "padOffsetX": 0,
+      "padOffsetY": 0,
+      "relativeAngle": 0,
+      "plated": true,
+      "padType": "NORMAL",
+      "topSolderExpansion": null,
+      "bottomSolderExpansion": null,
+      "topPasteExpansion": null,
+      "bottomPasteExpansion": null,
+      "locked": false,
+      "zIndex": 109,
+      "connectMode": null,
+      "spokeSpace": null,
+      "spokeWidth": null,
+      "spokeAngle": null,
+      "unusedInnerLayers": [],
+      "padLen": 0,
+      "propagationDelay": 0,
+      "attrsMap": {}
+    },
+    {
+      "groupId": 0,
+      "netName": "",
+      "layerId": 12,
+      "num": "11",
+      "centerX": 99.606,
+      "centerY": -63.189,
+      "padAngle": 0,
+      "hole": {
+        "holeType": "ROUND",
+        "width": 27.559,
+        "height": 27.559,
+        "cornerRadius": 11.811
+      },
+      "defaultPad": {
+        "padType": "ELLIPSE",
+        "width": 39.37,
+        "height": 39.37
+      },
+      "specialPad": [],
+      "padOffsetX": 0,
+      "padOffsetY": 0,
+      "relativeAngle": 0,
+      "plated": true,
+      "padType": "NORMAL",
+      "topSolderExpansion": null,
+      "bottomSolderExpansion": null,
+      "topPasteExpansion": null,
+      "bottomPasteExpansion": null,
+      "locked": false,
+      "zIndex": 110,
+      "connectMode": null,
+      "spokeSpace": null,
+      "spokeWidth": null,
+      "spokeAngle": null,
+      "unusedInnerLayers": [],
+      "padLen": 0,
+      "propagationDelay": 0,
+      "attrsMap": {}
+    },
+    {
+      "groupId": 0,
+      "netName": "",
+      "layerId": 12,
+      "num": "12",
+      "centerX": 99.606,
+      "centerY": -113.189,
+      "padAngle": 0,
+      "hole": {
+        "holeType": "ROUND",
+        "width": 27.559,
+        "height": 27.559,
+        "cornerRadius": 11.811
+      },
+      "defaultPad": {
+        "padType": "ELLIPSE",
+        "width": 39.37,
+        "height": 39.37
+      },
+      "specialPad": [],
+      "padOffsetX": 0,
+      "padOffsetY": 0,
+      "relativeAngle": 0,
+      "plated": true,
+      "padType": "NORMAL",
+      "topSolderExpansion": null,
+      "bottomSolderExpansion": null,
+      "topPasteExpansion": null,
+      "bottomPasteExpansion": null,
+      "locked": false,
+      "zIndex": 111,
+      "connectMode": null,
+      "spokeSpace": null,
+      "spokeWidth": null,
+      "spokeAngle": null,
+      "unusedInnerLayers": [],
+      "padLen": 0,
+      "propagationDelay": 0,
+      "attrsMap": {}
+    }
+  ]
+}

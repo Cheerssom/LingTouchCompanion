@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "D:\\Bambu Studio\\bambu-studio.exe",
+    "--debug",
+    "2",
+    "--load-settings",
+    "C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\3mf\\Handle_NewPCB_2026-10-20\\models\\h2c_machine.json;C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\3mf\\Handle_NewPCB_2026-10-20\\models\\h2c_process.json",
+    "--load-filaments",
+    "C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\3mf\\Handle_NewPCB_2026-10-20\\models\\h2c_pla.json",
+    "--slice",
+    "0",
+    "--arrange",
+    "0",
+    "--orient",
+    "0",
+    "--outputdir",
+    "C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\3mf\\Handle_NewPCB_2026-10-20\\models",
+    "--export-3mf",
+    "Handle_H2C_Sliced.3mf",
+    "C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\3mf\\Handle_NewPCB_2026-10-20\\models\\Handle_Print_Input.3mf"
+  ],
+  "input_sha256": "3f3552af169f8245495600a5c7b6a96695e74c7b9679732cbea8da2fe9b3fcc0",
+  "output_sha256": "04530fb59715a333e13f74e2ce9f8eea6c21e2f730e7e64e593e6fbde83bed70"
+}

@@ -1,0 +1,160 @@
+{
+  "board": "test / PCB1_2 / b5f51a2d415c68f2",
+  "source": "C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\.pcba-workflow\\pcb1_2-review-20261018\\PCB1_2_snapshot.epro2",
+  "sha256": "7700ab805af37ea1b2e114ea6d0048124b0fefe91ff1cd8243a93067c0970edf",
+  "basis": "2026-10-18 16:55 native snapshot; 20:04 recorded changes do not move module sockets; no live editor read",
+  "socket": "HX PM1.27-1x6P ZC; two independent strips per module",
+  "module_count": 10,
+  "socket_count": 20,
+  "pcb_pitch_mm": 1.2699999999999998,
+  "module_pitch_mm": 1.25,
+  "row_center_spacing_mm": 5.0599848,
+  "row_stagger_mm": 0.5999988000000003,
+  "hole_diameter_mm": 0.6999986,
+  "centered_pitch_error_per_pin_mm": [
+    -0.04999999999999949,
+    -0.029999999999999694,
+    -0.009999999999999898,
+    0.009999999999999898,
+    0.029999999999999694,
+    0.04999999999999949
+  ],
+  "socket_nominal_body_mm": [
+    8.02,
+    2.1,
+    4.3
+  ],
+  "socket_maximum_body_mm": [
+    8.32,
+    2.25,
+    4.45
+  ],
+  "minimum_socket_gap_at_maximum_body_mm": 0.19001543999999626,
+  "nearest_socket_pairs": [
+    [
+      0.19001543999999626,
+      "U34",
+      1,
+      "U37",
+      2
+    ],
+    [
+      0.19001543999999626,
+      "U35",
+      1,
+      "U38",
+      2
+    ],
+    [
+      0.19001543999999626,
+      "U36",
+      1,
+      "U39",
+      2
+    ],
+    [
+      0.19001544000001047,
+      "U31",
+      1,
+      "U34",
+      2
+    ],
+    [
+      0.19001544000001047,
+      "U32",
+      1,
+      "U35",
+      2
+    ],
+    [
+      0.19001544000001047,
+      "U33",
+      1,
+      "U36",
+      2
+    ],
+    [
+      1.690014980000001,
+      "U38",
+      1,
+      "U48",
+      1
+    ],
+    [
+      2.0886607840045732,
+      "U35",
+      1,
+      "U39",
+      2
+    ],
+    [
+      2.0886607840045746,
+      "U32",
+      1,
+      "U36",
+      2
+    ],
+    [
+      2.0886633134717116,
+      "U34",
+      1,
+      "U38",
+      2
+    ]
+  ],
+  "minimum_module_base_gap_nominal_mm": 0.17999831999999572,
+  "nearest_module_pairs": [
+    [
+      0.17999831999999572,
+      "U32",
+      "U33"
+    ],
+    [
+      0.17999831999999572,
+      "U35",
+      "U36"
+    ],
+    [
+      0.17999831999999572,
+      "U38",
+      "U39"
+    ],
+    [
+      0.18000085999999982,
+      "U31",
+      "U32"
+    ],
+    [
+      0.18000085999999982,
+      "U34",
+      "U35"
+    ],
+    [
+      0.18000085999999982,
+      "U37",
+      "U38"
+    ],
+    [
+      1.5000002399999914,
+      "U34",
+      "U37"
+    ],
+    [
+      1.5000002399999914,
+      "U35",
+      "U38"
+    ]
+  ],
+  "minimum_max_socket_body_to_board_edge_mm": 0.7570005800000031,
+  "socket_collisions": 0,
+  "module_nominal_collisions": 0,
+  "limits": [
+    "Module drawing has no body tolerance table; 0.18 mm nominal gap is not worst-case proof.",
+    "Pitch mismatch is +/-0.05 mm per end after centering; current user-accepted socket retained.",
+    "Actual opening, blade retention and soldered assembly position are not measured here."
+  ],
+  "drawings": [
+    ".pcba-workflow/v2-restart-20261017/w5-sourcing2/C22438072-signed.pdf p1",
+    "BrailleModule_Video/inputs/Braille_Module_Reference.pdf pp4-5"
+  ]
+}

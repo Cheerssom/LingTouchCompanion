@@ -1,0 +1,320 @@
+{
+  "parts": {
+    "Tray": {
+      "connected_watertight": true,
+      "volume_mm3": 37811.94212721546
+    },
+    "Front_cover": {
+      "connected_watertight": true,
+      "volume_mm3": 28362.550935315732
+    },
+    "Rear_cover": {
+      "connected_watertight": true,
+      "volume_mm3": 32701.389375349885
+    },
+    "Front_tenon": {
+      "connected_watertight": true,
+      "volume_mm3": 1000.7028806084901
+    },
+    "Rear_tenon": {
+      "connected_watertight": true,
+      "volume_mm3": 1336.2999995201849
+    },
+    "Middle_tenon": {
+      "connected_watertight": true,
+      "volume_mm3": 1524.5174400456171
+    }
+  },
+  "collisions_mm3": [],
+  "board_edges": {
+    "-1": {
+      "supported_width_mm": 0.5704204559326165,
+      "missing_mm3": 0.0
+    },
+    "1": {
+      "supported_width_mm": 0.5704204559326165,
+      "missing_mm3": 0.0
+    }
+  },
+  "mounts": [
+    {
+      "xy_mm": [
+        1.1430000000000007,
+        15.239999999999998
+      ],
+      "cover": "Front_cover",
+      "tray_pad_diameter_mm": 2.2,
+      "cover_pad_diameter_mm": 2.2,
+      "pin_diameter_mm": 1.0,
+      "pin_length_from_board_bottom_mm": 4.0040000000000004,
+      "pin_above_board_mm": 1.8,
+      "hole_diameter_mm": 1.2,
+      "pin_in_hole_diametral_gap_mm": 0.19999999999999996,
+      "socket_diameter_mm": 1.3,
+      "socket_depth_mm": 1.8,
+      "pin_in_socket_mm": 1.6,
+      "pin_tip_clearance_mm": 0.19999999999999996,
+      "top_play_mm": 0.2,
+      "board_slide_blocked_mm3": 0.1637333823736684,
+      "lift_stop_contact_mm3": 0.247349458292766,
+      "cover_shift_blocked_mm3": 0.1849819259740881
+    },
+    {
+      "xy_mm": [
+        134.36599999999999,
+        -15.113
+      ],
+      "cover": "Rear_cover",
+      "tray_pad_diameter_mm": 2.2,
+      "cover_pad_diameter_mm": 2.2,
+      "pin_diameter_mm": 1.0,
+      "pin_length_from_board_bottom_mm": 4.0040000000000004,
+      "pin_above_board_mm": 1.8,
+      "hole_diameter_mm": 1.2,
+      "pin_in_hole_diametral_gap_mm": 0.19999999999999996,
+      "socket_diameter_mm": 1.3,
+      "socket_depth_mm": 1.8,
+      "pin_in_socket_mm": 1.6,
+      "pin_tip_clearance_mm": 0.19999999999999996,
+      "top_play_mm": 0.2,
+      "board_slide_blocked_mm3": 0.16373338237365329,
+      "lift_stop_contact_mm3": 0.24734945827929375,
+      "cover_shift_blocked_mm3": 0.18498192597411017
+    }
+  ],
+  "tenons": {
+    "Front_tenon": {
+      "clearance_per_face": 0.2,
+      "x": -4.175,
+      "half": 18.58322663438411,
+      "width": 4.45,
+      "waist": 2.85,
+      "height": 7.0,
+      "length": 39.16645326876822,
+      "direction": 1,
+      "joins": [
+        "Tray",
+        "Front_cover"
+      ],
+      "capture_interference_mm3": {
+        "cover_lift_2mm": 28.143755504765014,
+        "tray_drop_2mm": 27.93415924760913
+      },
+      "retention": "hourglass across Z=0; loose slide fit, nothing holds it along Y; no printed fit measurement"
+    },
+    "Rear_tenon": {
+      "clearance_per_face": 0.2,
+      "x": 232.815,
+      "half": 22.0,
+      "width": 4.95,
+      "waist": 3.35,
+      "height": 7.0,
+      "length": 46.0,
+      "direction": -1,
+      "joins": [
+        "Tray",
+        "Rear_cover"
+      ],
+      "capture_interference_mm3": {
+        "cover_lift_2mm": 3.6285817932632214,
+        "tray_drop_2mm": 3.628581793263299
+      },
+      "retention": "hourglass across Z=0; loose slide fit, nothing holds it along Y; no printed fit measurement"
+    },
+    "Middle_tenon": {
+      "clearance_per_face": 0.2,
+      "x": 61.51599999999999,
+      "half": 19.133,
+      "width": 8.0,
+      "seam_bottom": 5.0,
+      "vertical_thickness": 5.0,
+      "end_top": 14.0,
+      "length": 38.266,
+      "direction": 1,
+      "joins": [
+        "Front_cover",
+        "Rear_cover"
+      ],
+      "capture_interference_mm3": {
+        "front_cover_minus_x_2mm": 15.677208905125509,
+        "rear_cover_plus_x_2mm": 16.10070742772206,
+        "front_cover_lift_2mm": 30.295357050616502,
+        "rear_cover_lift_2mm": 32.96941472765184
+      },
+      "retention": "45-degree chevron; covers held down by the tray tenons; loose slide fit, nothing holds it along Y; no printed fit measurement"
+    }
+  },
+  "archives": {
+    "Handle_Print_H2C.3mf": "mesh triangles and pose readback passed; native coordinate tolerance 0.00005 mm",
+    "Handle_Assembly.3mf": "mesh triangles and pose readback passed; native coordinate tolerance 0.00005 mm"
+  },
+  "covers_lift_off_tray_with_middle_tenon": true,
+  "cover_seam": {
+    "x_mm": 61.51599999999999,
+    "slope_x_mm": [
+      56.565999999999995,
+      61.51599999999999
+    ],
+    "esp_front_x_mm": 72.42999991999999,
+    "separation_required": false
+  },
+  "open_tail": {
+    "PB_rear_x_mm": 228.39,
+    "rear_tenon_front_x_mm": 230.34,
+    "PB_stop_at_3mm_travel_mm3": 175.17499979920507
+  },
+  "outer": {
+    "mirror_difference_mm3": 0.0001989462987098795,
+    "front_cover_top_z": 26.504,
+    "rear_cover_top_z": 21.554000000000002,
+    "tray_floor_z": -10.5,
+    "slope_deg": 45.0,
+    "body_length_mm": 272.89
+  },
+  "cane_bore": "full 25 mm circle in tray and front cover, 28 mm deep",
+  "top_face_bounded_openings": 5,
+  "windows": [
+    {
+      "names": [
+        "U31",
+        "U34",
+        "U37"
+      ],
+      "a": [
+        23.46599919999999,
+        -15.61600002
+      ],
+      "b": [
+        45.16599967999999,
+        -6.716000019999997
+      ]
+    },
+    {
+      "names": [
+        "U32",
+        "U35",
+        "U38"
+      ],
+      "a": [
+        23.46599919999999,
+        -4.615999159999999
+      ],
+      "b": [
+        45.16599967999999,
+        4.284000840000003
+      ]
+    },
+    {
+      "names": [
+        "U33",
+        "U36",
+        "U39"
+      ],
+      "a": [
+        23.46599919999999,
+        6.383999159999997
+      ],
+      "b": [
+        45.16599967999999,
+        15.283999159999999
+      ]
+    },
+    {
+      "names": [
+        "U48"
+      ],
+      "a": [
+        47.465999459999985,
+        -5.046000840000003
+      ],
+      "b": [
+        54.16599945999999,
+        3.8539991599999994
+      ]
+    }
+  ],
+  "row_rib_widths_mm": [
+    2.100000859999998,
+    2.099998319999994
+  ],
+  "fixed_module_tops_flush": true,
+  "hardware_references_unchanged": true,
+  "overhangs": {
+    "Tray": {
+      "downward_faces_under_30deg_mm2": {
+        "accepted": 2115.6303804415725,
+        "other": 0.0
+      },
+      "layer_overhang_mm2": {
+        "accepted": 642.0100371149721,
+        "other": 0.0
+      }
+    },
+    "Front_cover": {
+      "downward_faces_under_30deg_mm2": {
+        "accepted": 976.4424099445567,
+        "other": 0.0
+      },
+      "layer_overhang_mm2": {
+        "accepted": 599.9758173304571,
+        "other": 0.0
+      }
+    },
+    "Rear_cover": {
+      "downward_faces_under_30deg_mm2": {
+        "accepted": 604.3531200133596,
+        "other": 0.0
+      },
+      "layer_overhang_mm2": {
+        "accepted": 124.98388883730323,
+        "other": 0.0
+      }
+    },
+    "Front_tenon": {
+      "downward_faces_under_30deg_mm2": {
+        "accepted": 0.0,
+        "other": 0.0
+      },
+      "layer_overhang_mm2": {
+        "accepted": 0.0,
+        "other": 0.0
+      }
+    },
+    "Rear_tenon": {
+      "downward_faces_under_30deg_mm2": {
+        "accepted": 0.0,
+        "other": 0.0
+      },
+      "layer_overhang_mm2": {
+        "accepted": 0.0,
+        "other": 0.0
+      }
+    },
+    "Middle_tenon": {
+      "downward_faces_under_30deg_mm2": {
+        "accepted": 0.0,
+        "other": 0.0
+      },
+      "layer_overhang_mm2": {
+        "accepted": 0.0,
+        "other": 0.0
+      }
+    }
+  },
+  "print_poses": {
+    "Tray": "floor down",
+    "Front_cover": "top face down",
+    "Rear_cover": "top face down",
+    "Front_tenon": "broad flat end down",
+    "Rear_tenon": "broad flat end down",
+    "Middle_tenon": "standing on its end"
+  },
+  "native_slice": {
+    "support_g": 2.254164336253779,
+    "support_by_category_g": {
+      "accepted: tray bottom-edge ring": 1.1424049181786637,
+      "accepted: under cane-mouth top": 1.1117594180751214
+    },
+    "system_process_differences": {}
+  }
+}

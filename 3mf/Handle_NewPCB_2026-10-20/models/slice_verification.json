@@ -1,0 +1,142 @@
+{
+  "total_g": 96.09272003173828,
+  "support_g": 2.254164336253779,
+  "support_percent": 2.3458221762369256,
+  "feature_g": {
+    "Custom": 0.03030655163009903,
+    "Inner wall": 19.84041720325279,
+    "Outer wall": 18.679464251184626,
+    "Bottom surface": 3.328606448723267,
+    "Support": 2.0795964774057945,
+    "Brim": 0.11501775788621221,
+    "Gap infill": 0.29350749666099385,
+    "Overhang wall": 0.3765812702390835,
+    "Internal solid infill": 22.835667979886022,
+    "Bridge": 6.410098488181719,
+    "Sparse infill": 13.11034544637333,
+    "Floating vertical shell": 4.037394105998151,
+    "Top surface": 4.781143795218795,
+    "Support interface": 0.17456785884798431
+  },
+  "support_interface_print_height_mm": [
+    2.4,
+    2.6,
+    2.8,
+    3.0
+  ],
+  "feature_mass_sum_g": 96.09271513148886,
+  "support_xyz_bounds_mm": [
+    [
+      6.24,
+      10.44,
+      0.2
+    ],
+    [
+      189.212,
+      102.543,
+      4.4
+    ]
+  ],
+  "settings": {
+    "printer_model": "Bambu Lab H2C",
+    "layer_height": "0.2",
+    "nozzle_diameter": [
+      "0.4",
+      "0.4"
+    ],
+    "filament_type": [
+      "PLA"
+    ],
+    "enable_support": "1",
+    "support_type": "tree(auto)",
+    "support_style": "default",
+    "support_on_build_plate_only": "0",
+    "support_threshold_angle": "30",
+    "wall_loops": "2",
+    "sparse_infill_density": "15%"
+  },
+  "process_default_differences": {},
+  "sha256": {
+    "argv": [
+      "D:\\Bambu Studio\\bambu-studio.exe",
+      "--debug",
+      "2",
+      "--load-settings",
+      "C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\3mf\\Handle_NewPCB_2026-10-20\\models\\h2c_machine.json;C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\3mf\\Handle_NewPCB_2026-10-20\\models\\h2c_process.json",
+      "--load-filaments",
+      "C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\3mf\\Handle_NewPCB_2026-10-20\\models\\h2c_pla.json",
+      "--slice",
+      "0",
+      "--arrange",
+      "0",
+      "--orient",
+      "0",
+      "--outputdir",
+      "C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\3mf\\Handle_NewPCB_2026-10-20\\models",
+      "--export-3mf",
+      "Handle_H2C_Sliced.3mf",
+      "C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\3mf\\Handle_NewPCB_2026-10-20\\models\\Handle_Print_Input.3mf"
+    ],
+    "input_sha256": "3f3552af169f8245495600a5c7b6a96695e74c7b9679732cbea8da2fe9b3fcc0",
+    "output_sha256": "04530fb59715a333e13f74e2ce9f8eea6c21e2f730e7e64e593e6fbde83bed70"
+  },
+  "parts": {
+    "Tray": {
+      "total_g": 36.70182330464043,
+      "support_g": 1.1424049181786637,
+      "support_by_category_g": {
+        "accepted: tray bottom-edge ring": 1.1424049181786637
+      },
+      "not_accepted_assembly_bounds_mm": null,
+      "support_percent": 3.1126652992038757
+    },
+    "Front_cover": {
+      "total_g": 23.10082254585136,
+      "support_g": 1.1117594180751214,
+      "support_by_category_g": {
+        "accepted: under cane-mouth top": 1.1117594180751214
+      },
+      "not_accepted_assembly_bounds_mm": null,
+      "support_percent": 4.812639964955622
+    },
+    "Rear_cover": {
+      "total_g": 32.87848258471092,
+      "support_g": 0.0,
+      "support_by_category_g": {},
+      "not_accepted_assembly_bounds_mm": null,
+      "support_percent": 0.0
+    },
+    "Front_tenon": {
+      "total_g": 0.911838764993738,
+      "support_g": 0.0,
+      "support_by_category_g": {},
+      "not_accepted_assembly_bounds_mm": null,
+      "support_percent": 0.0
+    },
+    "Rear_tenon": {
+      "total_g": 1.152891803319565,
+      "support_g": 0.0,
+      "support_by_category_g": {},
+      "not_accepted_assembly_bounds_mm": null,
+      "support_percent": 0.0
+    },
+    "Middle_tenon": {
+      "total_g": 1.2959072385065025,
+      "support_g": 0.0,
+      "support_by_category_g": {},
+      "not_accepted_assembly_bounds_mm": null,
+      "support_percent": 0.0
+    },
+    "unassigned": {
+      "total_g": 0.02064233783318979,
+      "support_g": 0.0,
+      "support_by_category_g": {},
+      "not_accepted_assembly_bounds_mm": null,
+      "support_percent": 0.0
+    }
+  },
+  "support_by_category_g": {
+    "accepted: tray bottom-edge ring": 1.1424049181786637,
+    "accepted: under cane-mouth top": 1.1117594180751214
+  }
+}
