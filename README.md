@@ -1,43 +1,33 @@
 # 灵触·随行 · LingTouch Companion
 
-将视觉信息转换为触觉阵列反馈的辅助感知项目。当前实验使用手机摄像头、电脑端深度推理和 ESP32-S3，输出为 15 个六点模组，共 90 个触点。
+把视觉信息转换为触觉点阵的辅助感知项目。目标形态：CS30 深度相机（加 IMU）戴在头上、直插手机或平板，所有计算都在手机/平板上，结果编码成点阵经蓝牙发给手柄。点阵 9 列 × 6 行，每格 40 cm（左右 ±1.8 m，前方 1.0–3.4 m）。
 
-给 Claude 的近期工作与审阅入口见 [CLAUDE.md](CLAUDE.md)。其中 PCB 布局和渲染外观仍待修正，验证记录不代表已经验收。
+## 布局：每个文件夹归谁
 
-## 项目入口
+| 文件夹 | 归属 | 内容 |
+|---|---|---|
+| [core/](core/README.md) | 大家共用 | C++17 端侧核心：类型、模块接口、点阵编码、全部参数、给外壳的门面、顶层 CMake |
+| [perception/](perception/README.md) | 视觉同学 | `native/` CS30 取流与拆帧、几何、0/1/2；`cs30/` 协议材料；`lab/` Python 实验位 |
+| [agent/](agent/README.md) | 对话 agent 同学 | `native/` agent 与语音接口；`backend/` Node.js 导航与命令解析服务 |
+| [apps/](apps/README.md) | 交互同学 | `android/`（Kotlin）、`harmony/`（ArkTS，平板优先） |
+| [hardware/](hardware/README.md) | Hsinlung | 固件、3D 模型、PCB、头戴方案、BLE 调试页 |
+| [experiments/chi2027/](experiments/chi2027/README.md) | Hsinlung | 论文实验通路（手机拍摄 + 电脑深度推理） |
+| [docs/](docs/) | — | [方案文档](docs/plans/)、[本次交接](docs/plans/HANDOFF_2026-10-28.md)、[真机验收清单](docs/device_tests.md)、[报告](docs/REPORT_2026-10-28.md)、[本机迁移脚本](docs/migrate_local_2026-10-28.ps1) |
+| [archive/](archive/) | — | 不再使用但保留：uni-app 前端、旧 `vision/`、9/29 比赛版 `LingTouch.zip`、10/09 的旧 CLAUDE.md |
 
-| 目录 | 用途 |
+## 入口
+
+| 要做的事 | 怎么做 |
 |---|---|
-| [visionss/](visionss/README.md) | 当前实验：米制深度、俯视栅格、BLE 传输与日志 |
-| [single_point/](single_point/README.md) | 共用实验通路的单点告警对照条件 |
-| [firmware/](firmware/README.md) | ESP32-S3 固件、引脚与通信协议 |
-| [app/frontend/](app/frontend/README.md) | uni-app 手机应用 |
-| [app/backend/](app/backend/README.md) | 地图、命令解析与视觉帧转发服务 |
-| [vision/](vision/README.md) | 旧图像平面视觉管线，保留作回退 |
-| [3mf/](3mf/README.md) | 前件、后件与两件式手柄的模型、完整生成代码及必要输入 |
-| [PCB 修订稿](PCB_REDESIGN_2026-10-08/README.txt) | 五页原理图及实际板、98×98 mm 测试板的未布线布局草稿 |
-| [阵列编排与渲染](BrailleModule_Video/ArrayPreview/README.md) | 离线网页编排与 Cycles 渲染流程，外观仍待修正 |
+| 编译并测试端侧核心 | `cmake -S core -B build/core && cmake --build build/core && ctest --test-dir build/core --output-on-failure` |
+| 安卓 App | Android Studio 打开 `apps/android/`（需要 SDK 35、NDK、CMake 3.22.1） |
+| 鸿蒙 App | DevEco Studio 打开 `apps/harmony/`（系统 ≥ HarmonyOS 5.1.0 / API 18） |
+| 对一帧原始深度打印栅格或做平面检查 | `build/core/perception_tests/lt_frame_tool grid|plane 帧文件 perception/cs30/calibration_0.bin` |
+| 论文实验 | `python experiments/chi2027/visionss/phone_server.py`（环境 `D:\anaconda\envs\LING\python.exe`） |
+| 导航/命令解析服务 | 进入 `agent/backend/`，`npm ci && npm start` |
+| 3D 模型 | 在 `hardware/models/` 下按各模型 README 执行 |
+| 真机验收 | [docs/device_tests.md](docs/device_tests.md) |
 
-## 运行实验
+## 本机数据
 
-在仓库根目录、配置好依赖的 Python 环境中运行：
-
-```powershell
-python visionss/phone_server.py
-```
-
-本机已验证环境为 `D:\anaconda\envs\LING\python.exe`。模型准备、手机连接与操作见 [实验说明](visionss/README.md)。
-
-## 浏览器工具
-
-| 文件 | 用途 |
-|---|---|
-| [depth_preview.html](depth_preview.html) | 图片深度预览；先运行 `python visionss/depth_server.py` |
-| [ble_mobile_controller.html](ble_mobile_controller.html) | 手机 BLE 点阵控制，使用 ROT180 映射 |
-| [ble_testbench.html](ble_testbench.html) | 点阵与帧数据调试，保留旧 PROD 映射 |
-
-BLE 页面需要浏览器提供 Web Bluetooth；两种映射不同，须与实际装配方向对应。
-
-离线标定和距离验证见 [TOPDOWN_VALIDATION.md](TOPDOWN_VALIDATION.md)，工具为 `validate_distance.py`、`check_balloon_depth.py` 和照片复制脚本 `prep_new_pics.py`。
-
-模型、测试照片、实验输出、论文材料和本地协作记录不随 Git 上传；源码、HTML 工具与必要配置保留在仓库中。
+模型权重（`Depth-Anything-V2/`）、测试照片（`pics/`）、实验日志（`experiment_runs/`）、`.pcba-workflow/`、建模运行时、密钥、论文材料留在本机，不进 Git。2026-10-28 重构后先运行一次 `docs/migrate_local_2026-10-28.ps1`（只移动、不删除，可加 `-DryRun` 先看），把被忽略的本机文件挪到新位置。
