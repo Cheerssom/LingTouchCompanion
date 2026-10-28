@@ -1,0 +1,9 @@
+{
+  "string": [
+    { "name": "ability_label", "value": "灵触" },
+    { "name": "module_desc", "value": "灵触鸿蒙端" },
+    { "name": "ability_desc", "value": "CS30 取流、9×6 栅格与触觉手柄输出" },
+    { "name": "reason_bluetooth", "value": "连接触觉手柄" },
+    { "name": "reason_location", "value": "后台持续运行（长时任务：定位类型）" }
+  ]
+}

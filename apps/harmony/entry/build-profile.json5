@@ -1,0 +1,15 @@
+{
+  "apiType": "stageMode",
+  "buildOption": {
+    // 核心（core/、perception/native/、agent/native/）由这份 CMake 一起编进 libentry.so
+    "externalNativeOptions": {
+      "path": "./src/main/cpp/CMakeLists.txt",
+      "arguments": "",
+      "cppFlags": "",
+      "abiFilters": ["arm64-v8a"]
+    }
+  },
+  "targets": [
+    { "name": "default" }
+  ]
+}

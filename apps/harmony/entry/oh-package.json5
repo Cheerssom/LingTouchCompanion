@@ -1,0 +1,11 @@
+{
+  "name": "entry",
+  "version": "0.1.0",
+  "description": "灵触 鸿蒙端主模块",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "libentry.so": "file:./src/main/cpp/types/libentry"
+  }
+}
