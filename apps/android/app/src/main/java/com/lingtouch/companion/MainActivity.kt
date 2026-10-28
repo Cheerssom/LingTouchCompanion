@@ -304,7 +304,8 @@ class MainActivity : Activity() {
         }
         sendText = text()
         button("发送一帧到手柄") {
-            val error = service?.sendLatest() ?: "服务还没启动"
+            val s = service
+            val error = if (s == null) "服务还没启动" else s.sendLatest()
             sendText.text = if (error == null) "已发出，等待手柄刷新完成" else "没有发送：$error"
         }
         continuousSwitch = Switch(this).apply {
@@ -323,7 +324,8 @@ class MainActivity : Activity() {
         }
         planeText = text(13f, mono = true)
         button("复位相机（release 后重开仍失败时）") {
-            val error = service?.resetCamera()
+            val s = service
+            val error = if (s == null) "服务还没启动" else s.resetCamera()
             cameraText.text = if (error == null) "相机：已复位，请重新连接" else "相机：复位失败：$error"
         }
         detailText = text(13f)
