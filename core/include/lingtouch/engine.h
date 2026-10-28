@@ -65,6 +65,11 @@ class Engine {
   bool latest_frame(DepthFrame* out) const;
   EngineStats stats() const;
 
+  // ---- 真机验收用：把最近一帧原始深度存成文件（640×480 uint16 小端，与 perception/cs30/reference_*.bin 同格式）；
+  //      对一个帧文件同步算栅格（不影响 latest_grid），用于两个平台、电脑之间比对摘要
+  Status save_latest_frame(const std::string& path) const;
+  Result<OccupancyGrid> process_frame_file(const std::string& path);
+
   // ---- 触觉：状态 2 的表示方式必须显式传入；镜像与 ROT180 取自配置
   Result<LegacyFrame> encode_legacy(const OccupancyGrid& grid, UnknownCellPolicy policy) const;
 

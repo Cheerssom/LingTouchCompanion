@@ -10,6 +10,7 @@
 #include "lingtouch/engine.h"
 #include "lingtouch/perception/cs30_calibration.h"
 #include "lingtouch/perception/pipeline.h"
+#include "lingtouch/report_json.h"
 #include "synthetic_scene.h"
 #include "test_files.h"
 #include "test_harness.h"
@@ -130,6 +131,17 @@ LT_TEST(startup_packets_grid_and_tactile_frame) {
   LT_CHECK(tactile);
   Result<LegacyFrame> reference = encode_legacy_frame(expected.cells, UnknownCellPolicy::kFlat, LegacyBoardLayout{true, true});
   LT_CHECK(tactile && reference && tactile.value() == reference.value());
+
+  // 存帧 → 再核对这个帧文件：摘要与直接计算相同，帧文件与原始深度逐字节相同
+  const std::string path = std::string(LINGTOUCH_TEST_TMP) + "/engine_saved_frame.bin";
+  LT_CHECK(engine.save_latest_frame(path));
+  const auto saved = lt_files::read_abs(path);
+  LT_CHECK(saved.size() == cs30::kFrameBytes);
+  Result<OccupancyGrid> again = engine.process_frame_file(path);
+  LT_CHECK_MSG(again, again.error());
+  if (again) LT_CHECK(grid_digest(again.value()) == grid_digest(expected));
+  LT_CHECK(grid_json(g, monotonic_now_ns()).find("\"digest\":\"" + grid_digest(expected) + "\"") != std::string::npos);
+  std::printf("  合成帧栅格摘要 %s\n", grid_digest(expected).c_str());
 
   // 第二帧（FID 翻转）
   push_frame(engine, frame, 1);

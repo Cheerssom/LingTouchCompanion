@@ -2,6 +2,8 @@
 
 #include <chrono>
 #include <cstdio>
+#include <fstream>
+#include <iterator>
 #include <utility>
 
 #include "lingtouch/perception/cs30_calibration.h"
@@ -181,6 +183,37 @@ bool Engine::latest_frame(DepthFrame* out) const {
 EngineStats Engine::stats() const {
   std::lock_guard<std::mutex> lock(result_mutex_);
   return stats_;
+}
+
+Status Engine::save_latest_frame(const std::string& path) const {
+  DepthFrame f;
+  if (!latest_frame(&f)) return Status::failure("还没有收到帧");
+  std::ofstream out(path, std::ios::binary);
+  if (!out) return Status::failure("打不开文件：" + path);
+  for (uint16_t v : f.depth_mm) {
+    const char b[2] = {static_cast<char>(v & 0xff), static_cast<char>(v >> 8)};
+    out.write(b, 2);
+  }
+  return out ? Status::success() : Status::failure("写文件失败：" + path);
+}
+
+Result<OccupancyGrid> Engine::process_frame_file(const std::string& path) {
+  std::ifstream in(path, std::ios::binary);
+  if (!in) return Result<OccupancyGrid>::failure("打不开文件：" + path);
+  const std::vector<uint8_t> raw((std::istreambuf_iterator<char>(in)), std::istreambuf_iterator<char>());
+  if (raw.size() != cs30::kFrameBytes)
+    return Result<OccupancyGrid>::failure("帧文件应为 614400 字节，实际 " + std::to_string(raw.size()));
+  DepthFrame f;
+  size_frame(&f);
+  for (size_t i = 0; i < f.depth_mm.size(); ++i) f.depth_mm[i] = static_cast<uint16_t>(raw[2 * i] | (raw[2 * i + 1] << 8));
+  std::lock_guard<std::mutex> lock(pipeline_mutex_);
+  if (!intrinsics_) return Result<OccupancyGrid>::failure("没有可用内参");
+  // 用一条独立的流水线，不动后台线程正在用的那条
+  DepthPipeline pipeline(config_);
+  Status s = pipeline.set_intrinsics(*intrinsics_);
+  if (!s) return Result<OccupancyGrid>::failure(s.message);
+  f.intrinsics_id = intrinsics_->id;
+  return Result<OccupancyGrid>::success(pipeline.process(f));
 }
 
 Result<LegacyFrame> Engine::encode_legacy(const OccupancyGrid& grid, UnknownCellPolicy policy) const {

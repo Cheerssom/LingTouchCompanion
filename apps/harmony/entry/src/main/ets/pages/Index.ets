@@ -15,6 +15,8 @@ interface GroundJson {
 }
 
 interface GridJson {
+  error?: string;
+  digest?: string;
   status: string;
   failure: string;
   frame_id: number | null;
@@ -300,6 +302,26 @@ struct Index {
           this.planeText = core.planeCheck();
         })
         Text(this.planeText).fontSize(13).fontFamily('monospace')
+        // 真机验收第 1、3 条：帧文件在应用沙箱 files 目录（hdc file send / recv 到 /data/app/el2/100/base/com.lingtouch.companion/haps/entry/files/）
+        Button('保存当前帧（latest_frame.bin）').onClick(() => {
+          const path = `${this.context().filesDir}/latest_frame.bin`;
+          const err = core.saveLatestFrame(path);
+          this.planeText = err ? `没有保存：${err}` : `已保存：${path}`;
+        })
+        Button('核对帧文件（frame.bin → 栅格与摘要）').onClick(() => {
+          const path = `${this.context().filesDir}/frame.bin`;
+          const g = JSON.parse(core.processFrameFile(path)) as GridJson;
+          if (g.error !== undefined) {
+            this.planeText = `核对失败：${g.error}（${path}）`;
+          } else {
+            const cells = g.cells ?? '';
+            const lines: string[] = [];
+            for (let r = 0; r < 6; r++) {
+              lines.push(cells.substring(r * 9, r * 9 + 9));
+            }
+            this.planeText = `frame.bin：${g.status}，摘要 ${g.digest ?? ''}\n${lines.join('\n')}`;
+          }
+        })
         Button('显示当前参数').onClick(() => {
           this.planeText = core.configText();
         })

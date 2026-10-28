@@ -14,6 +14,10 @@ std::string grid_json(const OccupancyGrid& grid, int64_t now_ns);
 std::string stats_json(const EngineStats& stats);
 std::string json_escape(const std::string& s);
 
+// 栅格结果的摘要（FNV-1a 64，覆盖状态、54 格、每格诊断、各阶段计数、地面法线与高度的二进制位）。
+// 两个平台对同一帧、同一参数、同一内参算出的摘要应完全相同（docs/device_tests.md 第 3 条）。
+std::string grid_digest(const OccupancyGrid& grid);
+
 int64_t monotonic_now_ns();
 
 }  // namespace lingtouch

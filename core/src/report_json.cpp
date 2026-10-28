@@ -2,6 +2,7 @@
 
 #include <chrono>
 #include <cstdio>
+#include <cstring>
 
 namespace lingtouch {
 namespace {
@@ -13,6 +14,28 @@ std::string number(double v) {
 }
 
 std::string number(uint64_t v) { return std::to_string(v); }
+
+struct Fnv {
+  uint64_t h = 1469598103934665603ULL;
+  void bytes(const void* p, size_t n) {
+    const unsigned char* b = static_cast<const unsigned char*>(p);
+    for (size_t i = 0; i < n; ++i) {
+      h ^= b[i];
+      h *= 1099511628211ULL;
+    }
+  }
+  void u32(uint32_t v) {
+    const unsigned char b[4] = {static_cast<unsigned char>(v), static_cast<unsigned char>(v >> 8),
+                                static_cast<unsigned char>(v >> 16), static_cast<unsigned char>(v >> 24)};
+    bytes(b, 4);
+  }
+  void f64(double v) {
+    uint64_t bits = 0;
+    std::memcpy(&bits, &v, sizeof(bits));
+    u32(static_cast<uint32_t>(bits));
+    u32(static_cast<uint32_t>(bits >> 32));
+  }
+};
 
 }  // namespace
 
@@ -54,6 +77,31 @@ std::string json_escape(const std::string& s) {
   return out;
 }
 
+std::string grid_digest(const OccupancyGrid& g) {
+  Fnv f;
+  f.u32(static_cast<uint32_t>(g.status));
+  for (CellState c : g.cells) f.u32(static_cast<uint32_t>(c));
+  for (const CellDiagnostics& d : g.diag) {
+    f.u32(d.band_points);
+    f.u32(d.ground_points);
+    f.u32(d.other_points);
+    f.u32(d.ground_subblocks_seen);
+  }
+  f.u32(g.counts.pixels);
+  f.u32(g.counts.value_valid);
+  f.u32(g.counts.after_wrap);
+  f.u32(g.counts.after_flying);
+  f.u32(g.counts.in_grid);
+  f.u32(g.ground.ok ? 1 : 0);
+  for (double v : g.ground.normal) f.f64(v);
+  f.f64(g.ground.height_m);
+  f.u32(g.ground.inliers);
+  f.u32(g.ground.candidates);
+  char buf[17];
+  std::snprintf(buf, sizeof(buf), "%016llx", static_cast<unsigned long long>(f.h));
+  return buf;
+}
+
 std::string grid_json(const OccupancyGrid& g, int64_t now_ns) {
   const bool has_frame = g.status != GridStatus::kNoFrame;
   std::string cells;
@@ -64,6 +112,7 @@ std::string grid_json(const OccupancyGrid& g, int64_t now_ns) {
   j += ",\"frame_id\":" + (has_frame ? number(g.source_frame_id) : std::string("null"));
   j += ",\"age_ms\":" + (has_frame ? number(static_cast<double>(now_ns - g.capture_time_ns) / 1e6) : std::string("null"));
   j += ",\"intrinsics_id\":\"" + json_escape(g.intrinsics_id) + "\"";
+  j += ",\"digest\":\"" + grid_digest(g) + "\"";
   j += ",\"cells\":" + (has_frame ? "\"" + cells + "\"" : std::string("null"));
   j += ",\"ground\":{\"ok\":" + std::string(g.ground.ok ? "true" : "false");
   if (g.ground.ok) {

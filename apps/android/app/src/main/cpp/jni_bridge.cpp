@@ -169,4 +169,25 @@ JNIEXPORT jstring JNICALL Java_com_lingtouch_companion_NativeCore_nativePlaneChe
   return to_jstring(env, format_plane_check(check_planarity(frame, *in, e.config().depth, 0.5)));
 }
 
+// 把最近一帧原始深度存到 path（真机验收第 1 条：拿到电脑上与厂家 SDK 的帧比对）
+JNIEXPORT jstring JNICALL Java_com_lingtouch_companion_NativeCore_nativeSaveLatestFrame(JNIEnv* env, jclass,
+                                                                                        jlong handle, jstring path) {
+  const char* p = env->GetStringUTFChars(path, nullptr);
+  const std::string file(p);
+  env->ReleaseStringUTFChars(path, p);
+  Status s = state(handle)->engine->save_latest_frame(file);
+  return s ? nullptr : to_jstring(env, s.message);
+}
+
+// 对帧文件算栅格（真机验收第 3 条：两个平台、电脑比对摘要）。返回栅格 JSON，失败时返回 {"error": …}
+JNIEXPORT jstring JNICALL Java_com_lingtouch_companion_NativeCore_nativeProcessFrameFile(JNIEnv* env, jclass,
+                                                                                         jlong handle, jstring path) {
+  const char* p = env->GetStringUTFChars(path, nullptr);
+  const std::string file(p);
+  env->ReleaseStringUTFChars(path, p);
+  Result<OccupancyGrid> g = state(handle)->engine->process_frame_file(file);
+  if (!g) return to_jstring(env, "{\"error\":\"" + json_escape(g.error()) + "\"}");
+  return to_jstring(env, grid_json(g.value(), g.value().capture_time_ns));
+}
+
 }  // extern "C"

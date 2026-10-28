@@ -31,6 +31,10 @@ object NativeCore {
 
     @JvmStatic external fun nativePlaneCheck(handle: Long): String
 
+    /** 真机验收：存最近一帧原始深度（返回 null 表示成功）；对帧文件算栅格（返回栅格 JSON，含 digest）。 */
+    @JvmStatic external fun nativeSaveLatestFrame(handle: Long, path: String): String?
+    @JvmStatic external fun nativeProcessFrameFile(handle: Long, path: String): String
+
     const val POLICY_UNSET = 0
     const val POLICY_FLAT = 1
     const val POLICY_RAISED = 2

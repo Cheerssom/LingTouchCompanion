@@ -323,6 +323,21 @@ class MainActivity : Activity() {
             }.start()
         }
         planeText = text(13f, mono = true)
+        // 真机验收第 1、3 条：帧文件放在 /sdcard/Android/data/com.lingtouch.companion/files/
+        button("保存当前帧（latest_frame.bin）") {
+            val s = service ?: return@button
+            val file = java.io.File(getExternalFilesDir(null), "latest_frame.bin")
+            val error = NativeCore.nativeSaveLatestFrame(s.handle, file.absolutePath)
+            planeText.text = if (error == null) "已保存：${file.absolutePath}" else "没有保存：$error"
+        }
+        button("核对帧文件（frame.bin → 栅格与摘要）") {
+            val s = service ?: return@button
+            val file = java.io.File(getExternalFilesDir(null), "frame.bin")
+            val g = JSONObject(NativeCore.nativeProcessFrameFile(s.handle, file.absolutePath))
+            planeText.text = if (g.has("error")) "核对失败：${g.getString("error")}（${file.absolutePath}）"
+            else "${file.name}：${g.getString("status")}，摘要 ${g.getString("digest")}\n" +
+                (0 until 6).joinToString("\n") { g.getString("cells").substring(it * 9, it * 9 + 9) }
+        }
         button("复位相机（release 后重开仍失败时）") {
             val s = service
             val error = if (s == null) "服务还没启动" else s.resetCamera()

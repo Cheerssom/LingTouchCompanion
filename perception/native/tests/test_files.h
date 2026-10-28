@@ -11,9 +11,13 @@
 
 namespace lt_files {
 
-inline std::vector<uint8_t> read(const std::string& relative) {
-  std::ifstream in(std::string(LINGTOUCH_SOURCE_ROOT) + "/" + relative, std::ios::binary);
+inline std::vector<uint8_t> read_abs(const std::string& path) {
+  std::ifstream in(path, std::ios::binary);
   return std::vector<uint8_t>(std::istreambuf_iterator<char>(in), std::istreambuf_iterator<char>());
+}
+
+inline std::vector<uint8_t> read(const std::string& relative) {
+  return read_abs(std::string(LINGTOUCH_SOURCE_ROOT) + "/" + relative);
 }
 
 // perception/cs30/reference_*.bin：640×480 uint16 小端毫米

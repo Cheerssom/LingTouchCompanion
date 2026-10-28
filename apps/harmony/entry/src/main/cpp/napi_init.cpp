@@ -289,6 +289,41 @@ napi_value PlaneCheck(napi_env env, napi_callback_info) {
   return str(env, format_plane_check(check_planarity(frame, *in, e->config().depth, 0.5)));
 }
 
+bool get_string(napi_env env, napi_value v, std::string* out) {
+  size_t len = 0;
+  if (napi_get_value_string_utf8(env, v, nullptr, 0, &len) != napi_ok) return false;
+  std::string s(len, '\0');
+  if (napi_get_value_string_utf8(env, v, &s[0], len + 1, &len) != napi_ok) return false;
+  s.resize(len);
+  *out = s;
+  return true;
+}
+
+// saveLatestFrame(path): string —— 真机验收第 1 条；空串表示成功
+napi_value SaveLatestFrame(napi_env env, napi_callback_info info) {
+  napi_value argv[1];
+  if (!get_args(env, info, 1, argv)) return nullptr;
+  Engine* e = engine(env);
+  if (!e) return nullptr;
+  std::string path;
+  if (!get_string(env, argv[0], &path)) return str(env, "参数不对");
+  Status s = e->save_latest_frame(path);
+  return str(env, s ? "" : s.message);
+}
+
+// processFrameFile(path): string —— 栅格 JSON（含 digest）；失败时 {"error": …}。真机验收第 3 条
+napi_value ProcessFrameFile(napi_env env, napi_callback_info info) {
+  napi_value argv[1];
+  if (!get_args(env, info, 1, argv)) return nullptr;
+  Engine* e = engine(env);
+  if (!e) return nullptr;
+  std::string path;
+  if (!get_string(env, argv[0], &path)) return str(env, "{\"error\":\"参数不对\"}");
+  Result<OccupancyGrid> g = e->process_frame_file(path);
+  if (!g) return str(env, "{\"error\":\"" + json_escape(g.error()) + "\"}");
+  return str(env, grid_json(g.value(), g.value().capture_time_ns));
+}
+
 // ---- 备选路径：getFileDescriptor + libusb_wrap_sys_device ----
 
 // openFd(fd): string —— 空串表示已开流
@@ -353,6 +388,8 @@ static napi_value RegisterExports(napi_env env, napi_value exports) {
       {"encodeLatest", nullptr, EncodeLatest, nullptr, nullptr, nullptr, napi_default, nullptr},
       {"lastError", nullptr, LastError, nullptr, nullptr, nullptr, napi_default, nullptr},
       {"planeCheck", nullptr, PlaneCheck, nullptr, nullptr, nullptr, napi_default, nullptr},
+      {"saveLatestFrame", nullptr, SaveLatestFrame, nullptr, nullptr, nullptr, napi_default, nullptr},
+      {"processFrameFile", nullptr, ProcessFrameFile, nullptr, nullptr, nullptr, napi_default, nullptr},
       {"openFd", nullptr, OpenFd, nullptr, nullptr, nullptr, napi_default, nullptr},
       {"closeFd", nullptr, CloseFd, nullptr, nullptr, nullptr, napi_default, nullptr},
       {"libusbLog", nullptr, LibusbLog, nullptr, nullptr, nullptr, napi_default, nullptr},

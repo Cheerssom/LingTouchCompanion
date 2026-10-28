@@ -12,6 +12,7 @@
 #include "lingtouch/config.h"
 #include "lingtouch/perception/cs30_calibration.h"
 #include "lingtouch/perception/pipeline.h"
+#include "lingtouch/report_json.h"
 
 using namespace lingtouch;
 
@@ -90,5 +91,6 @@ int main(int argc, char** argv) {
               g.counts.pixels, g.counts.value_valid, g.counts.after_wrap, g.counts.after_flying, g.ground.candidates,
               g.ground.inliers, g.ground.height_m, g.ground.pitch_deg);
   std::printf("%s", format_grid(g).c_str());
+  std::printf("摘要 %s（与安卓、鸿蒙「核对帧文件」显示的摘要比对）\n", grid_digest(g).c_str());
   return 0;
 }
