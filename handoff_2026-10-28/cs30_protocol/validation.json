@@ -1,0 +1,36 @@
+{
+  "cycles": [
+    {
+      "name": "cycle_0",
+      "controls": 41,
+      "every_setup_and_out_payload_matches_sdk": true,
+      "probe_response_equals_commit_payload": true,
+      "clean_stop": true,
+      "result": {
+        "frames": 86,
+        "frame_bytes": 614400,
+        "fps": 14.054084083693239,
+        "errors": {},
+        "vendor_dlls_loaded": false
+      }
+    },
+    {
+      "name": "cycle_1",
+      "controls": 41,
+      "every_setup_and_out_payload_matches_sdk": true,
+      "probe_response_equals_commit_payload": true,
+      "clean_stop": true,
+      "result": {
+        "frames": 85,
+        "frame_bytes": 614400,
+        "fps": 14.046841534286282,
+        "errors": {},
+        "vendor_dlls_loaded": false
+      }
+    }
+  ],
+  "same_exposure_exact_matches": 45,
+  "total_differing_pixels_same_exposure": 0,
+  "sdk_valid_fps": 13.788780946411784,
+  "post_test_sdk_streaming_and_shutdown_success": true
+}
