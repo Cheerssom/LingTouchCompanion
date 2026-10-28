@@ -8,6 +8,7 @@
 
 # Dependencies and build outputs
 /.build/
+/build/
 node_modules/
 dist/
 .venv/
@@ -92,3 +93,11 @@ sth
 /3mf/**/views/
 /3mf/Headset_Inputs/Medium_Trial_Registered.npz
 /BrailleModule_Video/Archives/
+
+# CS30: vendor SDK binaries, disassembly and raw capture runs stay local
+# (perception/cs30/independent_proof.py writes independent_runs/ and loads packages/ next to itself).
+/perception/cs30/capture_runs/
+/perception/cs30/independent_runs/
+/perception/cs30/packages/
+/perception/cs30/android_evidence/
+/perception/cs30/**/*.dll
