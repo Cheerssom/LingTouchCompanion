@@ -19,8 +19,8 @@ from PIL import Image
 
 from topdown_pipeline import TopdownConfig, depth_to_grid
 from frame_converter import grid_to_bytes, bytes_to_grid, mirror_grid_horizontal
+from repo_paths import REPO_ROOT as ROOT
 
-ROOT = Path(__file__).resolve().parent.parent
 COLORS = plt.get_cmap('tab10').colors
 
 

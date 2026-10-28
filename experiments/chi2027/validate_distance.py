@@ -20,6 +20,7 @@ from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).parent / "visionss"))
 from topdown_pipeline import backproject, ransac_ground, ground_frame, matvec
+from repo_paths import REPO_ROOT
 
 FX = 3260.0        # 用户复测: 门扇1467px(3072宽基准) * 2.0m / 0.90m
 STRIDE = 8
@@ -53,8 +54,8 @@ def fit_ground(depth, img_shape):
 
 
 def analyze(img_path, depth_path, true_dist, label):
-    img = np.array(Image.open(img_path))
-    depth_raw = np.load(depth_path).astype(np.float32)
+    img = np.array(Image.open(REPO_ROOT / img_path))
+    depth_raw = np.load(REPO_ROOT / depth_path).astype(np.float32)
     if depth_raw.shape[:2] != img.shape[:2]:
         depth_raw = np.array(Image.fromarray(depth_raw).resize(
             (img.shape[1], img.shape[0]), Image.BILINEAR))

@@ -4,9 +4,13 @@
 不经过命令行参数传中文路径(避免 Git Bash 乱码坑), 直接在 Python 里写路径。
 """
 import shutil
+import sys
 from pathlib import Path
 
-PICS = Path("pics")
+sys.path.insert(0, str(Path(__file__).parent / "visionss"))
+from repo_paths import REPO_ROOT
+
+PICS = REPO_ROOT / "pics"
 SRC_DST = [
     (PICS / "空场 n.jpg", PICS / "ascii" / "empty3.jpg"),
     (PICS / "椅子3m n.jpg", PICS / "ascii" / "chair_3m_plain.jpg"),

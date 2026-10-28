@@ -31,12 +31,12 @@ import cv2
 import numpy as np
 
 THIS_DIR = Path(__file__).resolve().parent
-REPO_ROOT = THIS_DIR.parent
-SINGLE_POINT_DIR = REPO_ROOT / "single_point"
+SINGLE_POINT_DIR = THIS_DIR.parent / "single_point"
 for path in (str(THIS_DIR), str(SINGLE_POINT_DIR)):
     if path not in sys.path:
         sys.path.insert(0, path)
 
+from repo_paths import REPO_ROOT  # noqa: E402
 from alert_pipeline import depth_to_alert  # noqa: E402
 from depth_runner import DepthRunner  # noqa: E402
 from frame_converter import (  # noqa: E402

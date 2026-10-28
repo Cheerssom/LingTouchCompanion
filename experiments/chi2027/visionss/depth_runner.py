@@ -29,7 +29,8 @@ from pathlib import Path
 import numpy as np
 import torch
 
-_REPO_ROOT = Path(__file__).resolve().parent.parent
+from repo_paths import REPO_ROOT as _REPO_ROOT
+
 _METRIC_DEPTH_DIR = _REPO_ROOT / "Depth-Anything-V2" / "metric_depth"
 if str(_METRIC_DEPTH_DIR) not in sys.path:
     sys.path.insert(0, str(_METRIC_DEPTH_DIR))

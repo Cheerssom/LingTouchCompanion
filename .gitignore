@@ -13,20 +13,20 @@ dist/
 .venv/
 venv/
 *.egg-info/
-/app/frontend/unpackage/
-/app/frontend/.hbuilderx/
+/archive/app/frontend/unpackage/
+/archive/app/frontend/.hbuilderx/
 
 # Environment secrets and generated local HTTPS certificates
 .env
 .env.*
 !.env.example
 !.env.*.example
-/vision/cert.pem
-/vision/key.pem
-/visionss/cert.pem
-/visionss/key.pem
-/single_point/cert.pem
-/single_point/key.pem
+/archive/vision/cert.pem
+/archive/vision/key.pem
+/experiments/chi2027/visionss/cert.pem
+/experiments/chi2027/visionss/key.pem
+/experiments/chi2027/single_point/cert.pem
+/experiments/chi2027/single_point/key.pem
 
 # External model source and weights
 /Depth-Anything-V2/
@@ -37,8 +37,8 @@ venv/
 /pics/
 /experiment_runs/
 /output/
-/vision/data/
-/visionss/data/
+/archive/vision/data/
+/experiments/chi2027/visionss/data/
 vision_output.bin
 *_topdown.png
 *_raw_depth_meter.npy
@@ -61,12 +61,34 @@ glasses_refs
 
 sth
 
-# Complete 3D model sources and final archives live under 3mf.
+# Complete 3D model sources and final archives live under hardware/models/3mf.
+/hardware/models/3mf/.runtime/
+/hardware/models/3mf/**/geometry/
+/hardware/models/3mf/**/checks/
+/hardware/models/3mf/**/views/
+/hardware/models/3mf/Headset_Inputs/Medium_Trial_Registered.npz
+# Directory junction to the local root .pcba-workflow (created by docs/migrate_local_2026-10-28.ps1).
+/hardware/models/.pcba-workflow
+
+# Iteration snapshots of the Braille preview; keep locally only.
+/hardware/models/BrailleModule_Video/Archives/
+
+# Pre-2026-10-28 locations. Local ignored files stay here after merging until
+# docs/migrate_local_2026-10-28.ps1 moves them; keep these so nothing left behind
+# (for example the modelling runtime) shows up as untracked.
+/app/frontend/unpackage/
+/app/frontend/.hbuilderx/
+/vision/cert.pem
+/vision/key.pem
+/visionss/cert.pem
+/visionss/key.pem
+/single_point/cert.pem
+/single_point/key.pem
+/vision/data/
+/visionss/data/
 /3mf/.runtime/
 /3mf/**/geometry/
 /3mf/**/checks/
 /3mf/**/views/
 /3mf/Headset_Inputs/Medium_Trial_Registered.npz
-
-# Iteration snapshots of the Braille preview; keep locally only.
 /BrailleModule_Video/Archives/

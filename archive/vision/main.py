@@ -30,6 +30,7 @@ Architecture:
 """
 
 import argparse
+import os
 import sys
 import time
 import signal
@@ -255,7 +256,7 @@ def main():
         print(f"[Vision] Failed to open camera {args.camera}")
         # Fallback: try FileSource with test data
         try:
-            camera = FileSource("vision/data")
+            camera = FileSource(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data"))
             print("[Vision] Using file source for testing.")
         except FileNotFoundError:
             print("[Vision] No data directory. Exiting.")

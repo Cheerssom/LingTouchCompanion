@@ -4,7 +4,7 @@ Node.js + Express：百度地图接口、规则式语音命令解析，以及视
 
 ## 运行
 
-进入 `app/backend/`，复制 `.env.example` 为 `.env`，配置 `BAIDU_AK`：
+进入 `agent/backend/`，复制 `.env.example` 为 `.env`，配置 `BAIDU_AK`：
 
 ```sh
 npm ci
@@ -21,4 +21,4 @@ npm start
 | `POST /api/vision/frame` | 接收视觉帧 |
 | `WS /api/vision/stream` | 向手机推送视觉帧 |
 
-当前实验服务 `visionss/` 可独立运行，不依赖此后端。`.env` 不提交。
+当前实验服务 `experiments/chi2027/visionss/` 可独立运行，不依赖此后端。`.env` 不提交。

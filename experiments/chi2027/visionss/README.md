@@ -6,7 +6,7 @@
 
 Python 依赖包括 PyTorch、NumPy、OpenCV、Pillow、Matplotlib、bleak、cryptography，以及 Depth Anything V2 自身依赖。本机使用 `D:\anaconda\envs\LING\python.exe`。
 
-仓库根目录须另备 `Depth-Anything-V2/metric_depth/` 源码，权重放在：
+仓库根目录须另备 `Depth-Anything-V2/metric_depth/` 源码，权重放在下面的位置。脚本用 `repo_paths.py` 定位仓库根：先看环境变量 `LINGTOUCH_ROOT`，没设就向上找含 `.git` 的目录。
 
 ```text
 Depth-Anything-V2/metric_depth/checkpoints/depth_anything_v2_metric_hypersim_vitl.pth
@@ -15,8 +15,8 @@ Depth-Anything-V2/metric_depth/checkpoints/depth_anything_v2_metric_hypersim_vit
 以下命令均在仓库根目录执行：
 
 ```powershell
-python visionss/phone_server.py            # 空间触觉，HTTPS 8760
-python single_point/alert_server.py        # 单点告警，HTTPS 8761
+python experiments/chi2027/visionss/phone_server.py            # 空间触觉，HTTPS 8760
+python experiments/chi2027/single_point/alert_server.py        # 单点告警，HTTPS 8761
 ```
 
 加 `--no-ble` 可在不连接设备时运行。手机与电脑连接同一局域网，打开终端显示的 HTTPS 地址，接受本地证书并开始预览。
@@ -30,7 +30,7 @@ python single_point/alert_server.py        # 单点告警，HTTPS 8761
 | `depth_runner.py` | 常驻加载深度模型 |
 | `phone_camera.html` | 手机拍摄页面，由实验服务提供 |
 | `frame_converter.py` / `scan_link.py` | 栅格转15字节、BLE连接与刷新确认 |
-| `depth_server.py` | 配合根目录 `depth_preview.html`，默认本机 HTTP 8765 |
+| `depth_server.py` | 配合 [depth_preview.html](../depth_preview.html)，默认本机 HTTP 8765 |
 | `evaluate_obstacle_scenes.py` | 根据 manifest 重放场景，比较默认映射与指定配置 |
 | `profiles/multi_obstacle_preview.json` | 多障碍预览配置；正式入口不自动启用 |
 

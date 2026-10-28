@@ -8,7 +8,13 @@
 像素框是在原图(3072x4096)上人工量出来的(见对话里的网格截图), 单位: (x0,y0,x1,y1)。
 """
 
+import sys
+from pathlib import Path
+
 import numpy as np
+
+sys.path.insert(0, str(Path(__file__).parent / "visionss"))
+from repo_paths import REPO_ROOT
 
 CASES = [
     dict(label="balloon_1m_2m / 近气球(标称1m)",
@@ -40,7 +46,7 @@ def main():
     print(f"{'场景':<32}{'气球区均值':>10}{'气球区中位':>10}{'背景均值':>10}{'背景中位':>10}"
           f"{'差(m)':>8}{'差%':>8}")
     for c in CASES:
-        depth = np.load(c["depth"]).astype(np.float32)
+        depth = np.load(REPO_ROOT / c["depth"]).astype(np.float32)
         so = stats(depth, c["obj"])
         sb = stats(depth, c["bg"])
         diff = so["median"] - sb["median"]

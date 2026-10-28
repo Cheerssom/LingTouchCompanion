@@ -161,7 +161,7 @@ class ThreadingHTTPServer(ThreadingMixIn, HTTPServer):
 
 def main():
     global MAX_SIDE
-    ap = argparse.ArgumentParser(description="本地深度热力图预览服务（配合仓库根目录 depth_preview.html）")
+    ap = argparse.ArgumentParser(description="本地深度热力图预览服务（配合 experiments/chi2027/depth_preview.html）")
     ap.add_argument('--port', type=int, default=8765)
     ap.add_argument('--max-side', type=int, default=2048,
                      help='上传图片长边超过这个像素就先等比缩小再推理，0=不缩放 (默认 %(default)s)')

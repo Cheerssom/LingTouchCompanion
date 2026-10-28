@@ -4,7 +4,7 @@
 
 ## 运行
 
-用 HBuilderX 打开 `app/frontend/`，选择运行到浏览器或手机；BLE 等设备功能需在支持的平台验证。
+用 HBuilderX 打开 `archive/app/frontend/`，选择运行到浏览器或手机；BLE 等设备功能需在支持的平台验证。
 
 - `utils/request.js`：后端地址，默认 `http://localhost:3000`；真机访问需改为电脑可达地址。
 - `api/map.js`：高德路线服务配置。
@@ -22,4 +22,4 @@
 | `device` | BLE连接与触觉控制 |
 | `diagnostic` | 设备诊断 |
 
-后端说明见 [app/backend](../backend/README.md)。编译输出 `unpackage/` 不提交。
+后端说明见 [agent/backend](../../../agent/backend/README.md)。编译输出 `unpackage/` 不提交。

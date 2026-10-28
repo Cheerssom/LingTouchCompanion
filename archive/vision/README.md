@@ -1,14 +1,14 @@
 # 旧视觉管线
 
-早期图像平面相对深度 / 边缘检测方案，保留作回退。当前米制深度实验使用 [visionss](../visionss/README.md)。
+早期图像平面相对深度 / 边缘检测方案，保留作回退。当前米制深度实验使用 [visionss](../../experiments/chi2027/visionss/README.md)。
 
 ## 运行
 
 依赖见 [requirements.txt](requirements.txt)。以下命令在仓库根目录运行：
 
 ```sh
-python vision/phone_server.py --no-ble
-python vision/main.py --mode edge --camera 0 --debug
+python archive/vision/phone_server.py --no-ble
+python archive/vision/main.py --mode edge --camera 0 --debug
 ```
 
 `phone_server.py` 提供手机拍摄与 BLE 通路；去掉 `--no-ble` 可连接设备。`main.py` 支持 `depth` / `edge` 模式及文件、串口、HTTP等输出，完整参数见 `--help`。

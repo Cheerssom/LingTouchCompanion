@@ -5,7 +5,7 @@
 在仓库根目录运行：
 
 ```powershell
-python single_point/alert_server.py
+python experiments/chi2027/single_point/alert_server.py
 ```
 
 默认 HTTPS 8761；加 `--no-ble` 可不连接设备运行。终端操作与空间触觉条件一致。
