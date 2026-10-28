@@ -5,7 +5,7 @@ all required source inputs and their generation code. Keep this folder together.
 The desktop originals and former repository-root model directories are not
 required. Installed dependencies are separate from the portable source set.
 
-From `hardware/models/`, reproduce and verify the retained original models with the local runtime:
+From the repository root, reproduce and verify all models with the local runtime:
 
 ```powershell
 ./3mf/.runtime/structural-runtime/Scripts/python.exe -B 3mf/regenerate.py --require-baseline
@@ -23,9 +23,6 @@ Final model files:
 - [Printed rear](Headset_Rear/revised/Rear_Revised_Print_Ready.3mf)
 - [Rear with head/battery references](Headset_Rear/revised/Rear_Revised_Wearing.3mf)
 - [Two-object handle print project](Handle/Handle_Print.3mf)
-  (original manual handle; current work: [twist-key handoff](Handle_TwistKey_2026-10-27/HANDOFF.md),
-  base shell source: [Handle_NewPCB_2026-10-20](Handle_NewPCB_2026-10-20/README.md);
-  original PCB1_5 facts: [Handle/VERIFIED_FACTS.md](Handle/VERIFIED_FACTS.md))
 - [PCB with U31-U45 and U48 socket models removed](PCB/3D_PCB1_5_2026-09-15_no_U31-U45_U48_headers.step)
 
 The PCB STEP copy has its own [regeneration and verification instructions](PCB/README.md).
