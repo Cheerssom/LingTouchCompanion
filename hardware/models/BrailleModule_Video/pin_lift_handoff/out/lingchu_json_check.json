@@ -1,0 +1,732 @@
+{
+ "start_frames_equal_base": [
+  [
+   0,
+   true
+  ],
+  [
+   1,
+   true
+  ],
+  [
+   2,
+   true
+  ],
+  [
+   3,
+   true
+  ],
+  [
+   4,
+   true
+  ],
+  [
+   5,
+   true
+  ],
+  [
+   6,
+   true
+  ],
+  [
+   7,
+   true
+  ],
+  [
+   8,
+   true
+  ],
+  [
+   9,
+   true
+  ],
+  [
+   10,
+   true
+  ],
+  [
+   11,
+   true
+  ],
+  [
+   12,
+   true
+  ],
+  [
+   13,
+   true
+  ],
+  [
+   14,
+   true
+  ],
+  [
+   15,
+   true
+  ]
+ ],
+ "end_frames_equal_base": [
+  [
+   137,
+   true
+  ],
+  [
+   138,
+   true
+  ],
+  [
+   139,
+   true
+  ],
+  [
+   140,
+   true
+  ],
+  [
+   141,
+   true
+  ],
+  [
+   142,
+   true
+  ],
+  [
+   143,
+   true
+  ],
+  [
+   144,
+   true
+  ],
+  [
+   145,
+   true
+  ],
+  [
+   146,
+   true
+  ],
+  [
+   147,
+   true
+  ],
+  [
+   148,
+   true
+  ],
+  [
+   149,
+   true
+  ],
+  [
+   150,
+   true
+  ],
+  [
+   151,
+   true
+  ],
+  [
+   152,
+   true
+  ],
+  [
+   153,
+   true
+  ],
+  [
+   154,
+   true
+  ],
+  [
+   155,
+   true
+  ],
+  [
+   156,
+   true
+  ],
+  [
+   157,
+   true
+  ],
+  [
+   158,
+   true
+  ],
+  [
+   159,
+   true
+  ],
+  [
+   160,
+   true
+  ],
+  [
+   161,
+   true
+  ],
+  [
+   162,
+   true
+  ],
+  [
+   163,
+   true
+  ],
+  [
+   164,
+   true
+  ],
+  [
+   165,
+   true
+  ],
+  [
+   166,
+   true
+  ]
+ ],
+ "held_pin_max_diff": 0,
+ "held_pin_checks": 369,
+ "held_violations": [],
+ "stray_change_px": [],
+ "unchanged_frame_pairs": 126,
+ "timing": [
+  {
+   "pin": [
+    2,
+    6
+   ],
+   "kind": "rise",
+   "t_ms": 500,
+   "start_delay_ms": 7,
+   "settled_ms": 159,
+   "frames_from": 15,
+   "frame_levels": [
+    0.0,
+    0.635,
+    0.666,
+    0.541,
+    0.793,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    2,
+    6
+   ],
+   "kind": "fall",
+   "t_ms": 1000,
+   "down_ms": 38,
+   "ok": true
+  },
+  {
+   "pin": [
+    2,
+    7
+   ],
+   "kind": "rise",
+   "t_ms": 500,
+   "start_delay_ms": 1,
+   "settled_ms": 156,
+   "frames_from": 15,
+   "frame_levels": [
+    0.0,
+    0.84,
+    0.818,
+    0.603,
+    0.84,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    2,
+    7
+   ],
+   "kind": "fall",
+   "t_ms": 1000,
+   "down_ms": 40,
+   "ok": true
+  },
+  {
+   "pin": [
+    3,
+    6
+   ],
+   "kind": "rise",
+   "t_ms": 500,
+   "start_delay_ms": 12,
+   "settled_ms": 145,
+   "frames_from": 15,
+   "frame_levels": [
+    0.0,
+    0.63,
+    0.67,
+    0.465,
+    0.911,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    3,
+    6
+   ],
+   "kind": "fall",
+   "t_ms": 1500,
+   "down_ms": 41,
+   "ok": true
+  },
+  {
+   "pin": [
+    3,
+    7
+   ],
+   "kind": "rise",
+   "t_ms": 500,
+   "start_delay_ms": 4,
+   "settled_ms": 144,
+   "frames_from": 15,
+   "frame_levels": [
+    0.0,
+    0.898,
+    0.85,
+    0.714,
+    0.927,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    3,
+    7
+   ],
+   "kind": "fall",
+   "t_ms": 1500,
+   "down_ms": 47,
+   "ok": true
+  },
+  {
+   "pin": [
+    4,
+    6
+   ],
+   "kind": "rise",
+   "t_ms": 1000,
+   "start_delay_ms": 11,
+   "settled_ms": 151,
+   "frames_from": 30,
+   "frame_levels": [
+    0.0,
+    0.646,
+    0.666,
+    0.536,
+    0.869,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    4,
+    6
+   ],
+   "kind": "fall",
+   "t_ms": 2000,
+   "down_ms": 39,
+   "ok": true
+  },
+  {
+   "pin": [
+    4,
+    7
+   ],
+   "kind": "rise",
+   "t_ms": 1000,
+   "start_delay_ms": 5,
+   "settled_ms": 169,
+   "frames_from": 30,
+   "frame_levels": [
+    0.0,
+    0.679,
+    0.843,
+    0.622,
+    0.71,
+    0.998,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    4,
+    7
+   ],
+   "kind": "fall",
+   "t_ms": 2000,
+   "down_ms": 43,
+   "ok": true
+  },
+  {
+   "pin": [
+    5,
+    6
+   ],
+   "kind": "rise",
+   "t_ms": 1500,
+   "start_delay_ms": 1,
+   "settled_ms": 142,
+   "frames_from": 45,
+   "frame_levels": [
+    0.0,
+    0.879,
+    0.768,
+    0.724,
+    0.942,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    5,
+    6
+   ],
+   "kind": "fall",
+   "t_ms": 2500,
+   "down_ms": 46,
+   "ok": true
+  },
+  {
+   "pin": [
+    5,
+    7
+   ],
+   "kind": "rise",
+   "t_ms": 1500,
+   "start_delay_ms": 1,
+   "settled_ms": 141,
+   "frames_from": 45,
+   "frame_levels": [
+    0.0,
+    0.702,
+    0.548,
+    0.574,
+    0.949,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    5,
+    7
+   ],
+   "kind": "fall",
+   "t_ms": 2500,
+   "down_ms": 51,
+   "ok": true
+  },
+  {
+   "pin": [
+    6,
+    6
+   ],
+   "kind": "rise",
+   "t_ms": 2000,
+   "start_delay_ms": 6,
+   "settled_ms": 156,
+   "frames_from": 60,
+   "frame_levels": [
+    0.0,
+    0.698,
+    0.729,
+    0.515,
+    0.834,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    6,
+    6
+   ],
+   "kind": "fall",
+   "t_ms": 3000,
+   "down_ms": 42,
+   "ok": true
+  },
+  {
+   "pin": [
+    6,
+    7
+   ],
+   "kind": "rise",
+   "t_ms": 2000,
+   "start_delay_ms": 23,
+   "settled_ms": 161,
+   "frames_from": 60,
+   "frame_levels": [
+    0.0,
+    0.438,
+    0.924,
+    0.479,
+    0.895,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    6,
+    7
+   ],
+   "kind": "fall",
+   "t_ms": 3000,
+   "down_ms": 47,
+   "ok": true
+  },
+  {
+   "pin": [
+    7,
+    6
+   ],
+   "kind": "rise",
+   "t_ms": 2500,
+   "start_delay_ms": 23,
+   "settled_ms": 160,
+   "frames_from": 75,
+   "frame_levels": [
+    0.0,
+    0.436,
+    0.824,
+    0.578,
+    0.837,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    7,
+    6
+   ],
+   "kind": "fall",
+   "t_ms": 3500,
+   "down_ms": 43,
+   "ok": true
+  },
+  {
+   "pin": [
+    7,
+    7
+   ],
+   "kind": "rise",
+   "t_ms": 2500,
+   "start_delay_ms": 4,
+   "settled_ms": 146,
+   "frames_from": 75,
+   "frame_levels": [
+    0.0,
+    0.617,
+    0.658,
+    0.623,
+    0.895,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": false,
+   "ok": true
+  },
+  {
+   "pin": [
+    7,
+    7
+   ],
+   "kind": "fall",
+   "t_ms": 3500,
+   "down_ms": 54,
+   "ok": true
+  },
+  {
+   "pin": [
+    8,
+    6
+   ],
+   "kind": "rise",
+   "t_ms": 3000,
+   "start_delay_ms": 3,
+   "settled_ms": 163,
+   "frames_from": 90,
+   "frame_levels": [
+    0.0,
+    0.778,
+    0.846,
+    0.667,
+    0.785,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    8,
+    6
+   ],
+   "kind": "fall",
+   "t_ms": 4000,
+   "down_ms": 36,
+   "ok": true
+  },
+  {
+   "pin": [
+    8,
+    7
+   ],
+   "kind": "rise",
+   "t_ms": 3000,
+   "start_delay_ms": 1,
+   "settled_ms": 159,
+   "frames_from": 90,
+   "frame_levels": [
+    0.0,
+    0.829,
+    0.889,
+    0.602,
+    0.883,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    8,
+    7
+   ],
+   "kind": "fall",
+   "t_ms": 4000,
+   "down_ms": 41,
+   "ok": true
+  },
+  {
+   "pin": [
+    9,
+    6
+   ],
+   "kind": "rise",
+   "t_ms": 3500,
+   "start_delay_ms": 8,
+   "settled_ms": 157,
+   "frames_from": 105,
+   "frame_levels": [
+    0.0,
+    0.706,
+    0.831,
+    0.496,
+    0.806,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    9,
+    6
+   ],
+   "kind": "fall",
+   "t_ms": 4500,
+   "down_ms": 47,
+   "ok": true
+  },
+  {
+   "pin": [
+    9,
+    7
+   ],
+   "kind": "rise",
+   "t_ms": 3500,
+   "start_delay_ms": 3,
+   "settled_ms": 160,
+   "frames_from": 105,
+   "frame_levels": [
+    0.0,
+    0.601,
+    0.684,
+    0.548,
+    0.897,
+    1.0,
+    1.0
+   ],
+   "dip_visible_in_frames": true,
+   "ok": true
+  },
+  {
+   "pin": [
+    9,
+    7
+   ],
+   "kind": "fall",
+   "t_ms": 4500,
+   "down_ms": 44,
+   "ok": true
+  }
+ ],
+ "timing_all_ok": true,
+ "raised_hold_level_constant": true,
+ "ffmpeg_returncode": 0,
+ "decoded_frames": 167,
+ "decoded_fps": 30.0,
+ "decoded_still_pairs": 126,
+ "decoded_still_max_diff": 4,
+ "decoded_still_diff_histogram": {
+  "0": 39,
+  "1": 9,
+  "2": 53,
+  "3": 17,
+  "4": 8
+ },
+ "summary": {
+  "start_still_frames": 16,
+  "start_still_ms": 533.3,
+  "end_still_frames": 30,
+  "end_still_ms": 1000.0,
+  "held_violations": 0,
+  "stray_change_frames": 0,
+  "rises_with_visible_dip": "15/16"
+ }
+}

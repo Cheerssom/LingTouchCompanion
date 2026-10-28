@@ -1,0 +1,22 @@
+{
+  "image": "10_centered_original_scene.png",
+  "kind": "AI-generated and composited image with a subsequent generative viewpoint edit",
+  "selection": "Selected by Hsinlung as a starting image for competition video; no finished video approved.",
+  "intended_use": "Competition video starting image",
+  "is_unedited_photograph": false,
+  "editing_chain": [
+    "AI-generated all-retracted base image",
+    "Four raised tips extracted from the real prototype photograph and composited into the base",
+    "Generative edit of the composite to a centred viewpoint, retaining the imperfect prototype scene"
+  ],
+  "original_references": [
+    "../hardware/models/BrailleModule_Video/inputs/PrototypeSurface_A.jpeg",
+    "../hardware/models/BrailleModule_Video/inputs/PrototypeSurface_B.jpeg",
+    "../hardware/models/BrailleModule_Video/inputs/Touchpoint_Reference.jpg",
+    "../hardware/models/BrailleModule_Video/inputs/PhysicalMotionReference.mp4"
+  ],
+  "prompt": "10_centered_original_scene_prompt.txt",
+  "caption": "Edited/composited prototype illustration; not an unedited experimental photograph.",
+  "image_sha256": "0c05f7e572d409f55472421c2e3209a6e973bf83310df951c1483c6e2419aafb",
+  "prompt_sha256": "41a7bf6b248febf929e62c9c5a422f940de15d37a03bd0f88df557c137567428"
+}

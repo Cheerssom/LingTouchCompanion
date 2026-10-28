@@ -1,10 +1,13 @@
 # Local notes, paper materials and scratch work
 /AGENTS.md
+/.agents/
 /.claude/
 /.codex-work/
+/.pcba-workflow/
 /paper/
 /tools/
 /tmp/
+/result.json
 
 # Dependencies and build outputs
 /.build/
@@ -71,8 +74,11 @@ sth
 # Directory junction to the local root .pcba-workflow (created by docs/migrate_local_2026-10-28.ps1).
 /hardware/models/.pcba-workflow
 
-# Iteration snapshots of the Braille preview; keep locally only.
-/hardware/models/BrailleModule_Video/Archives/
+# Local animation comparisons and intermediate renders. Keep the accepted
+# playback and its named verification records with the reusable source.
+/hardware/models/BrailleModule_Video/pin_lift_handoff/review/
+/hardware/models/BrailleModule_Video/pin_lift_handoff/out/*
+!/hardware/models/BrailleModule_Video/pin_lift_handoff/out/lingchu_json*
 
 # Pre-2026-10-28 locations. Local ignored files stay here after merging until
 # docs/migrate_local_2026-10-28.ps1 moves them; keep these so nothing left behind
@@ -92,7 +98,6 @@ sth
 /3mf/**/checks/
 /3mf/**/views/
 /3mf/Headset_Inputs/Medium_Trial_Registered.npz
-/BrailleModule_Video/Archives/
 
 # CS30: vendor SDK binaries, disassembly and raw capture runs stay local
 # (perception/cs30/independent_proof.py writes independent_runs/ and loads packages/ next to itself).

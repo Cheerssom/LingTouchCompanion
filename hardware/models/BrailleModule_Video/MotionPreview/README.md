@@ -1,18 +1,36 @@
-# Module motion preview
+# Module motion preview sources
 
-Run `launch.cmd`, then open <http://127.0.0.1:8866/> in Chrome or Edge. If the
-preview is already running, open that address directly. The launcher uses the
-existing project Python runtime and serves this folder on the local computer.
+This folder retains editable single-module scenes and a keyboard-controlled
+browser preview. Its appearance and motion have not been accepted for
+photographic realism or complete device assembly; the former rendered stills
+and render reports are no longer a completed delivery.
 
-Click the picture to focus it, then press **1–6** or the corresponding numeric
-keypad keys. Each key controls its own dot: retracted → higher peak → lower
-maintained position. Press the same key again to retract it. The six buttons
-provide the same controls. **全部收回** retracts all dots; **显示编号** identifies
+The source chain is:
+
+- `../PhotoStudy/ReferenceStudy.blend` → `build_appearance.py` →
+  `AppearanceStudy.blend`.
+- `AppearanceStudy.blend` and `assets/motion.json` → `build_motion.py` →
+  `ModuleMotion.blend`.
+- `AppearanceStudy.blend` → `render_assets.py` → the browser's retained
+  background, dot atlases and manifest in `assets/`.
+
+`AppearanceVerification.json` is retained because `build_motion.py` reads it.
+It records legacy source-change checks; its pass fields do not certify visual
+quality or physical assembly. The browser atlases are reusable preview assets,
+not evidence of an accepted render.
+
+## Browser controls
+
+Run `launch.cmd`, then open <http://127.0.0.1:8866/> in Chrome or Edge. Click the
+picture to focus it and press **1–6**, numeric keypad keys, or the six buttons.
+Each control raises its dot to a peak, settles it to a maintained height, and
+retracts it on the next press. **全部收回** retracts all dots; **显示编号** shows
 their positions. Held keys do not repeatedly toggle a dot.
 
-The current visual settings are:
+The browser selects a rendered height sample for each dot. The Blender scene
+provides editable axial motion using the same `assets/motion.json` profile.
 
-| Stage | Height / duration |
+| Stage | Provisional height / duration |
 | --- | --- |
 | Retracted | 0 mm |
 | Rise | 33 ms, reaching 0.70 mm |
@@ -21,41 +39,19 @@ The current visual settings are:
 | Maintained | 0.45 mm, until toggled off |
 | Retract | 50 ms |
 
-These heights and timings are provisional preview choices, not measured
-manufacturer specifications. The three-stage behavior follows Hsinlung's
-requirement. Both the browser and Blender scene read the same
-`assets/motion.json` profile and use firm linear strokes, followed by a stable
-hold. The fixed-camera preview uses actual 3D-rendered height samples
-from the approved photographic scene, including changing occlusion, shadows,
-and highlights. It displays one nearest rendered height per frame to retain a
-single sharp moving contour. The dots lift along their axes without elastic
-wobble. The six pins now use one neutral grey-white finish for the complete
-round head and straight shaft, with a small smooth join instead of a sharp
-shading boundary. Their camera-visible body colour is kept uniform following
-Hsinlung's correction. The photographic lighting and housing remain intact.
+These values are preview choices, not measured manufacturer specifications.
+The requested peak-to-hold sequence is not established quantitatively by the
+physical reference video (`../inputs/PhysicalMotionReference.mp4`, 30 fps).
+Camera movement, compression and frame rate limit what can be inferred about
+stroke height, timing and any intermediate drop.
 
-`build_appearance.py` creates `AppearanceStudy.blend` from the archived
-photographic setup; `build_motion.py` adds the existing motion to this corrected
-appearance. `render_assets.py` renders the corresponding preview poses.
+## Editable timeline
 
-The approved static scene is archived in
-`../Archives/PhotoStudy_2026-10-07/`, including `ReferenceStudy.blend` and its
-photographic previews. The source `../PhotoStudy/` remains available.
+`ModuleMotion.blend` retains a 60 fps sample timeline (frames 1–430): each dot
+rises in turn, all remain raised, then all retract. Select the root object
+**BrailleModule** for `Dot_1_height_mm` through `Dot_6_height_mm` under Object
+Properties → Custom Properties; edit their curves in the Graph Editor.
 
-`ModuleMotion.blend` contains the editable 3D scene and a 60 fps sample timeline
-(frames 1–430): each dot rises in turn, all remain raised, then all retract.
-Select the root object **BrailleModule** to find `Dot_1_height_mm` through
-`Dot_6_height_mm` under Object Properties → Custom Properties. Their animation
-curves can be adjusted in the Graph Editor; timeline playback applies the
-existing height keys. The browser provides the live keyboard controls.
-
-The [user-provided Dot Pad video](https://www.youtube.com/watch?v=iSmRM2PUBzA)
-was inspected around 6–8 seconds for axial movement and changing hole
-occlusion. Revision 2 primarily follows Hsinlung's supplied physical-module
-video (`../inputs/PhysicalMotionReference.mp4`, 11.4 seconds, 30 fps). In that
-clip, lift is visible between frames
-69–70 (2.300–2.333 s) and 256–258 (8.533–8.600 s); release is visible between
-frames 300–302 (10.000–10.067 s). These observations support short strokes
-and firm stops. Camera movement, compression, and the frame rate prevent
-precise measurement of the high-to-maintained drop. Its height difference and
-timing remain provisional choices for the requested three-stage effect.
+The single-module sources do not verify the 15-module array, handle openings,
+PCB placement, clearances or complete installed device. Numerical source and
+motion checks supplement visual review; they do not replace it.

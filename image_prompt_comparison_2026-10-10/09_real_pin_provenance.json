@@ -1,0 +1,29 @@
+{
+  "method": "Direct real-photo pixel compositing; no image generation used for this version.",
+  "base": "07_selected_all_down.png",
+  "source": "../BrailleModule_Video/inputs/PrototypeSurface_B.jpeg",
+  "source_module": "Middle column, fourth module from top, four raised corner pins.",
+  "target_module": "Middle column, third module from top, four corners; center two pins remain down.",
+  "operations": [
+    "Register source pin positions to target apertures with projective transform",
+    "Map source RGB tone to base using real/accepted lowered pins and local black plate",
+    "Blend only four small pin and aperture regions; preserve source contours and reflections"
+  ],
+  "output": "09_real_pin_composite.png",
+  "dimensions": [
+    1086,
+    1448
+  ],
+  "modified_pixels": 6740,
+  "pixels_outside_four_regions_unchanged": true,
+  "two_center_pins_unchanged": true,
+  "source_resolution_limits": "Source pin contours and detail retain the real photograph's softness.",
+  "selection": "Selected by the user for current use on 2026-10-10.",
+  "base_provenance": "User-selected AI-edited all-down image; four raised tips in this version are directly composited real-photo pixels.",
+  "preserved_deliverable_sha256": {
+    "07_selected_all_down.png": "218d8e220c5890fa94090ba2be7b986f45be5104d0d655bf6b4b80558698b705",
+    "09_real_pin_composite.png": "c288ab3dbeb61d7befc3efdfd62045066f408d3353b8b4bb1dbe48d1a8247a4f",
+    "09_real_pin_detail.png": "1bb24670f395d22127f243c54520ca8e0358e2c7ac706f72fa431c319c4fb0ba",
+    "09_real_pin_source.png": "8fe8ea210a6ca160e36cc01795c5ee5dfa4f01ed0db66d4f62a22b604fce34e1"
+  }
+}

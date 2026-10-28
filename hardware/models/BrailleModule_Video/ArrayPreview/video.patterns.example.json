@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "timeline": {
+    "events": [
+      {"time_s": 0, "pattern": "off"},
+      {"time_s": 1, "pattern": "checker"},
+      {"time_s": 2, "pattern": "cross"},
+      {"time_s": 3, "pattern": "on"},
+      {"time_s": 4, "pattern": "off"}
+    ],
+    "tail_s": 1
+  },
+  "shots": [
+    {"camera": "near", "start_s": 0, "end_s": 5}
+  ],
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "samples": 192,
+    "device": "auto",
+    "deduplicate_holds": true
+  }
+}

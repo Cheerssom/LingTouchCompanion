@@ -3,41 +3,6 @@
   "independent_dots": 90,
   "mesh_instances": 330,
   "mesh_geometry_and_component_positions_preserved": true,
-  "photographic_finish": {
-    "revision": 4,
-    "reference_frames": [
-      45,
-      91
-    ],
-    "world_space_mould_texture": true,
-    "shared_pin_finish": "Photographic neutral grey-white complete pins",
-    "camera_pin_base_linear_rgb": [
-      0.52,
-      0.52,
-      0.52
-    ],
-    "pin_physical_fraction": 0.6,
-    "pin_cast_shadows": false,
-    "additive_glossy_highlight": false,
-    "pin_roughness_range": [
-      0.16,
-      0.34
-    ],
-    "stable_per_pin_surface_variation": true,
-    "key_position_mm": [
-      -30,
-      75,
-      190
-    ],
-    "key_size_mm": [
-      70,
-      35
-    ],
-    "wear": false,
-    "compositor_filters": false
-  },
-  "pin_subsurface_scattering": false,
-  "pin_cast_shadows": false,
   "source_sha256": "433c03d9a56435f20df698e10fc23902e4470e07b0a72c4bc8f2390b7a9e505b",
   "pcb_step": "../../3mf/PCB/inputs/3D_PCB1_5_2026-09-15.step",
   "pcb_step_sha256": "bc137079b08c6e28868dd377544d98e749a99668405f34cabf4c29b9ed15f2aa",
@@ -244,5 +209,6 @@
         10.999522
       ]
     }
-  ]
+  ],
+  "scope": "Retained source-array geometry, placement and indexing data from the October 8 build. This is not a current appearance, completed-video or physical-assembly approval; saved Cycles materials were subsequently changed."
 }

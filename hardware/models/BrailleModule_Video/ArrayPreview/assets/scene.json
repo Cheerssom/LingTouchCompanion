@@ -29,7 +29,7 @@
         "source_offset_xyz_mm": [
           95.08280944824219,
           -3.749715805053711,
-          -4.863739013671875e-05
+          -4.863739013671875E-05
         ],
         "cad_bounds_xyz_mm": [
           [
@@ -57,7 +57,7 @@
         "cad_bounds_xyz_mm": [
           [
             0.0,
-            -1.7763568394002505e-15,
+            -1.7763568394002505E-15,
             -23.0
           ],
           [
@@ -95,7 +95,7 @@
     "bounds_three_mm": [
       [
         -23.000098237390137,
-        -5.053710339097961e-09,
+        -5.053710339097961E-09,
         -166.16561844824218
       ],
       [
@@ -153,6 +153,6 @@
   },
   "model_export_source_sha256": "dcc7735bdda9423f0eab315e6fb3c10086ccbdd2e6f846a62a4fddd9bd190f3d",
   "production_scene": "EnclosedArray.blend",
-  "production_scene_sha256": "e651debc46203b0066c5dd15a02385429526eeeb7a610991792da368b6857e7e",
-  "browser_role": "Sequence editing and interactive preview; final pictures and video use Cycles"
+  "production_scene_sha256": "4a593e58a73ab73b3507524432a85f461727df52d72f2ab269c098025eeaa619",
+  "browser_role": "Sequence editing and approximate interactive preview. The retained Cycles source and its appearance are unapproved; rejected output images and videos were deleted."
 }

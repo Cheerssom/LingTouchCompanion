@@ -1,0 +1,30 @@
+{
+  "C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\3mf\\Handle\\GripStudy\\AdultRightHand.blend": {
+    "bones": 21,
+    "five_degree_index_change_max_skin_movement_mm": 7.659268644200441,
+    "hand_world_linear_determinant": -6.310452249636e-07,
+    "test_rotation_restored_before_save": true,
+    "saved_blend_sha256": "f021ff53d206090b968e8a9577eda19e12225496463e229fd6204c0122198888"
+  },
+  "C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\3mf\\Handle\\GripStudy\\AdultHand_OriginalHandle.blend": {
+    "bones": 21,
+    "five_degree_index_change_max_skin_movement_mm": 6.86098609518201,
+    "hand_world_linear_determinant": -6.310452249636e-07,
+    "test_rotation_restored_before_save": true,
+    "saved_blend_sha256": "d98dee3f8317b465531325ba3bf7cc89c16c2ff71b37900368557531007103f5"
+  },
+  "C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\3mf\\Handle\\GripStudy\\RightGrip_34mm\\AdultRightHand_RedesignedHandle.blend": {
+    "bones": 21,
+    "five_degree_index_change_max_skin_movement_mm": 6.422086723228202,
+    "hand_world_linear_determinant": -6.310451681201812e-07,
+    "test_rotation_restored_before_save": true,
+    "saved_blend_sha256": "37f31e577eafe02d95d42d407421d446b9f0b9e69949370dd5892380f23710a7"
+  },
+  "C:\\Users\\Hsinlung\\Desktop\\LingTouchCompanion\\3mf\\Handle\\GripStudy\\RightGrip_32mm\\AdultRightHand_RedesignedHandle.blend": {
+    "bones": 21,
+    "five_degree_index_change_max_skin_movement_mm": 6.211960225993927,
+    "hand_world_linear_determinant": -6.310453954938566e-07,
+    "test_rotation_restored_before_save": true,
+    "saved_blend_sha256": "ac0307108f74020fe4e057ed975e8cbe53747aa492ddb5c9163010a6066c11ed"
+  }
+}

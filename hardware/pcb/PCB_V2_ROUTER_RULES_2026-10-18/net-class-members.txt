@@ -1,0 +1,7 @@
+V2_POWER (8)
+ESP_5V_RAW, ESP_SW, MAIN_SW, SMA_SW, V5S, VBUS, VCCS, VIN_SYS
+
+V2_PLANE_FANOUT (2)
+GND, VCC
+
+V2_SIGNAL (181): every other net (default rule, nothing to assign)

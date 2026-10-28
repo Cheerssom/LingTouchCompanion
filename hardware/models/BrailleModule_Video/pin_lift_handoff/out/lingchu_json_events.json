@@ -1,0 +1,729 @@
+{
+ "source": {
+  "path": "inputs\\lingchu_frames_1791643082241.json",
+  "sha256": "fc86e84c94f2e0f65bc8878cf123b2b72baa9bd7d668b78eeef77504a05df6f6",
+  "records": 9,
+  "ts_ms": [
+   0.0,
+   500.0,
+   1000.0,
+   1500.0,
+   2000.0,
+   2500.0,
+   3000.0,
+   3500.0,
+   4000.0
+  ],
+  "seq": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ]
+ },
+ "timeline": {
+  "fps": 30,
+  "lead_ms": 500.0,
+  "tail_ms": 1000.0,
+  "frames": 167,
+  "duration_ms": 5566.666666666667,
+  "last_motion_end_ms": 4546.362,
+  "first_final_down_frame": 137,
+  "frame_sample": "levels at frame start time i*1000/fps, one instant per frame"
+ },
+ "mapping": "JSON row r, col c -> picture row r (top=0), col c (left=0); unmirrored",
+ "heights": {
+  "hold_mm": 0.5,
+  "rendered_step_mm": 0.002,
+  "note": "JSON 1 = settled level 1 = HOLD x fixed per-pin height factor"
+ },
+ "ranges_ms": {
+  "rise": [
+   120.0,
+   180.0
+  ],
+  "fall": [
+   30.0,
+   60.0
+  ]
+ },
+ "pins": {
+  "2,6": {
+   "character": {
+    "late": false,
+    "delay_ms": 6.4118,
+    "rise_ms": 159.4481,
+    "fall_ms": 40.3733,
+    "p0": 0.6139,
+    "p1": 0.6704,
+    "dip": 0.5704,
+    "r3": 0.7585,
+    "r4": 0.9448
+   },
+   "height_factor": 1.0962,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 500.0,
+     "seq": 0,
+     "h0": 0.0,
+     "delay_ms": 6.7577,
+     "rise_ms": 158.8051,
+     "p0": 0.6529,
+     "p1": 0.669,
+     "dip": 0.5297,
+     "r3": 0.7725,
+     "r4": 0.9421,
+     "end_ms": 658.8051,
+     "event_frame": 15.0,
+     "end_frame": 19.764
+    },
+    {
+     "kind": "fall",
+     "t_ms": 1000.0,
+     "seq": 1,
+     "h0": 1.0,
+     "fall_ms": 37.2539,
+     "end_ms": 1037.2539,
+     "event_frame": 30.0,
+     "end_frame": 31.118
+    }
+   ]
+  },
+  "2,7": {
+   "character": {
+    "late": false,
+    "delay_ms": 1.0042,
+    "rise_ms": 153.6691,
+    "fall_ms": 45.0417,
+    "p0": 0.8331,
+    "p1": 0.8635,
+    "dip": 0.5773,
+    "r3": 0.7963,
+    "r4": 0.9168
+   },
+   "height_factor": 1.0,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 500.0,
+     "seq": 0,
+     "h0": 0.0,
+     "delay_ms": 0.0,
+     "rise_ms": 155.4968,
+     "p0": 0.8342,
+     "p1": 0.8774,
+     "dip": 0.5795,
+     "r3": 0.7846,
+     "r4": 0.9316,
+     "end_ms": 655.4968,
+     "event_frame": 15.0,
+     "end_frame": 19.665
+    },
+    {
+     "kind": "fall",
+     "t_ms": 1000.0,
+     "seq": 1,
+     "h0": 1.0,
+     "fall_ms": 39.0177,
+     "end_ms": 1039.0177,
+     "event_frame": 30.0,
+     "end_frame": 31.171
+    }
+   ]
+  },
+  "3,6": {
+   "character": {
+    "late": false,
+    "delay_ms": 7.3307,
+    "rise_ms": 143.4546,
+    "fall_ms": 38.3782,
+    "p0": 0.638,
+    "p1": 0.6834,
+    "dip": 0.4849,
+    "r3": 0.7628,
+    "r4": 0.9005
+   },
+   "height_factor": 0.8396,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 500.0,
+     "seq": 0,
+     "h0": 0.0,
+     "delay_ms": 11.4269,
+     "rise_ms": 144.7812,
+     "p0": 0.6675,
+     "p1": 0.6983,
+     "dip": 0.4328,
+     "r3": 0.7805,
+     "r4": 0.9179,
+     "end_ms": 644.7812,
+     "event_frame": 15.0,
+     "end_frame": 19.343
+    },
+    {
+     "kind": "fall",
+     "t_ms": 1500.0,
+     "seq": 2,
+     "h0": 1.0,
+     "fall_ms": 40.6616,
+     "end_ms": 1540.6616,
+     "event_frame": 45.0,
+     "end_frame": 46.22
+    }
+   ]
+  },
+  "3,7": {
+   "character": {
+    "late": false,
+    "delay_ms": 4.9776,
+    "rise_ms": 141.7693,
+    "fall_ms": 47.1436,
+    "p0": 0.8965,
+    "p1": 0.9435,
+    "dip": 0.6596,
+    "r3": 0.8759,
+    "r4": 0.9285
+   },
+   "height_factor": 1.0125,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 500.0,
+     "seq": 0,
+     "h0": 0.0,
+     "delay_ms": 3.8736,
+     "rise_ms": 143.8407,
+     "p0": 0.8913,
+     "p1": 0.9507,
+     "dip": 0.668,
+     "r3": 0.8495,
+     "r4": 0.9227,
+     "end_ms": 643.8407,
+     "event_frame": 15.0,
+     "end_frame": 19.315
+    },
+    {
+     "kind": "fall",
+     "t_ms": 1500.0,
+     "seq": 2,
+     "h0": 1.0,
+     "fall_ms": 46.3643,
+     "end_ms": 1546.3643,
+     "event_frame": 45.0,
+     "end_frame": 46.391
+    }
+   ]
+  },
+  "4,6": {
+   "character": {
+    "late": false,
+    "delay_ms": 6.6915,
+    "rise_ms": 147.5557,
+    "fall_ms": 45.0912,
+    "p0": 0.6212,
+    "p1": 0.643,
+    "dip": 0.543,
+    "r3": 0.7993,
+    "r4": 0.9008
+   },
+   "height_factor": 1.0413,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 1000.0,
+     "seq": 1,
+     "h0": 0.0,
+     "delay_ms": 10.142,
+     "rise_ms": 150.1902,
+     "p0": 0.6741,
+     "p1": 0.6741,
+     "dip": 0.5142,
+     "r3": 0.8189,
+     "r4": 0.9022,
+     "end_ms": 1150.1902,
+     "event_frame": 30.0,
+     "end_frame": 34.506
+    },
+    {
+     "kind": "fall",
+     "t_ms": 2000.0,
+     "seq": 3,
+     "h0": 1.0,
+     "fall_ms": 38.1615,
+     "end_ms": 2038.1615,
+     "event_frame": 60.0,
+     "end_frame": 61.145
+    }
+   ]
+  },
+  "4,7": {
+   "character": {
+    "late": false,
+    "delay_ms": 5.0964,
+    "rise_ms": 164.7021,
+    "fall_ms": 47.1259,
+    "p0": 0.7692,
+    "p1": 0.8187,
+    "dip": 0.597,
+    "r3": 0.7548,
+    "r4": 0.939
+   },
+   "height_factor": 0.9981,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 1000.0,
+     "seq": 1,
+     "h0": 0.0,
+     "delay_ms": 4.9493,
+     "rise_ms": 168.79,
+     "p0": 0.7208,
+     "p1": 0.8434,
+     "dip": 0.6191,
+     "r3": 0.7403,
+     "r4": 0.9498,
+     "end_ms": 1168.79,
+     "event_frame": 30.0,
+     "end_frame": 35.064
+    },
+    {
+     "kind": "fall",
+     "t_ms": 2000.0,
+     "seq": 3,
+     "h0": 1.0,
+     "fall_ms": 42.8632,
+     "end_ms": 2042.8632,
+     "event_frame": 60.0,
+     "end_frame": 61.286
+    }
+   ]
+  },
+  "5,6": {
+   "character": {
+    "late": false,
+    "delay_ms": 0.7983,
+    "rise_ms": 141.4816,
+    "fall_ms": 40.6178,
+    "p0": 0.8445,
+    "p1": 0.878,
+    "dip": 0.6945,
+    "r3": 0.8558,
+    "r4": 0.9358
+   },
+   "height_factor": 1.1528,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 1500.0,
+     "seq": 2,
+     "h0": 0.0,
+     "delay_ms": 0.0,
+     "rise_ms": 141.4195,
+     "p0": 0.8693,
+     "p1": 0.8989,
+     "dip": 0.663,
+     "r3": 0.8358,
+     "r4": 0.9206,
+     "end_ms": 1641.4195,
+     "event_frame": 45.0,
+     "end_frame": 49.243
+    },
+    {
+     "kind": "fall",
+     "t_ms": 2500.0,
+     "seq": 4,
+     "h0": 1.0,
+     "fall_ms": 45.1022,
+     "end_ms": 2545.1022,
+     "event_frame": 75.0,
+     "end_frame": 76.353
+    }
+   ]
+  },
+  "5,7": {
+   "character": {
+    "late": false,
+    "delay_ms": 2.7272,
+    "rise_ms": 141.1877,
+    "fall_ms": 48.5138,
+    "p0": 0.6784,
+    "p1": 0.7111,
+    "dip": 0.4682,
+    "r3": 0.8714,
+    "r4": 0.9114
+   },
+   "height_factor": 1.1213,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 1500.0,
+     "seq": 2,
+     "h0": 0.0,
+     "delay_ms": 0.0,
+     "rise_ms": 140.3174,
+     "p0": 0.7018,
+     "p1": 0.7018,
+     "dip": 0.4404,
+     "r3": 0.8719,
+     "r4": 0.9252,
+     "end_ms": 1640.3174,
+     "event_frame": 45.0,
+     "end_frame": 49.21
+    },
+    {
+     "kind": "fall",
+     "t_ms": 2500.0,
+     "seq": 4,
+     "h0": 1.0,
+     "fall_ms": 50.8803,
+     "end_ms": 2550.8803,
+     "event_frame": 75.0,
+     "end_frame": 76.526
+    }
+   ]
+  },
+  "6,6": {
+   "character": {
+    "late": false,
+    "delay_ms": 3.585,
+    "rise_ms": 149.6538,
+    "fall_ms": 40.7925,
+    "p0": 0.6778,
+    "p1": 0.7374,
+    "dip": 0.491,
+    "r3": 0.7841,
+    "r4": 0.9279
+   },
+   "height_factor": 0.8,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 2000.0,
+     "seq": 3,
+     "h0": 0.0,
+     "delay_ms": 5.7095,
+     "rise_ms": 155.1763,
+     "p0": 0.7092,
+     "p1": 0.7468,
+     "dip": 0.497,
+     "r3": 0.7831,
+     "r4": 0.9236,
+     "end_ms": 2155.1763,
+     "event_frame": 60.0,
+     "end_frame": 64.655
+    },
+    {
+     "kind": "fall",
+     "t_ms": 3000.0,
+     "seq": 5,
+     "h0": 1.0,
+     "fall_ms": 41.2963,
+     "end_ms": 3041.2963,
+     "event_frame": 90.0,
+     "end_frame": 91.239
+    }
+   ]
+  },
+  "6,7": {
+   "character": {
+    "late": true,
+    "delay_ms": 26.3004,
+    "rise_ms": 155.043,
+    "fall_ms": 44.4637,
+    "p0": 0.8696,
+    "p1": 0.9212,
+    "dip": 0.4342,
+    "r3": 0.8987,
+    "r4": 0.9551
+   },
+   "height_factor": 1.017,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 2000.0,
+     "seq": 3,
+     "h0": 0.0,
+     "delay_ms": 22.8201,
+     "rise_ms": 160.5844,
+     "p0": 0.8427,
+     "p1": 0.9366,
+     "dip": 0.4785,
+     "r3": 0.915,
+     "r4": 0.945,
+     "end_ms": 2160.5844,
+     "event_frame": 60.0,
+     "end_frame": 64.818
+    },
+    {
+     "kind": "fall",
+     "t_ms": 3000.0,
+     "seq": 5,
+     "h0": 1.0,
+     "fall_ms": 46.3558,
+     "end_ms": 3046.3558,
+     "event_frame": 90.0,
+     "end_frame": 91.391
+    }
+   ]
+  },
+  "7,6": {
+   "character": {
+    "late": true,
+    "delay_ms": 24.9082,
+    "rise_ms": 161.761,
+    "fall_ms": 43.8712,
+    "p0": 0.7426,
+    "p1": 0.8009,
+    "dip": 0.5859,
+    "r3": 0.8598,
+    "r4": 0.9116
+   },
+   "height_factor": 1.0535,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 2500.0,
+     "seq": 4,
+     "h0": 0.0,
+     "delay_ms": 22.3439,
+     "rise_ms": 159.5872,
+     "p0": 0.7838,
+     "p1": 0.8294,
+     "dip": 0.5767,
+     "r3": 0.8486,
+     "r4": 0.9102,
+     "end_ms": 2659.5872,
+     "event_frame": 75.0,
+     "end_frame": 79.788
+    },
+    {
+     "kind": "fall",
+     "t_ms": 3500.0,
+     "seq": 6,
+     "h0": 1.0,
+     "fall_ms": 42.61,
+     "end_ms": 3542.61,
+     "event_frame": 105.0,
+     "end_frame": 106.278
+    }
+   ]
+  },
+  "7,7": {
+   "character": {
+    "late": false,
+    "delay_ms": 3.7165,
+    "rise_ms": 145.2766,
+    "fall_ms": 50.0344,
+    "p0": 0.6139,
+    "p1": 0.6933,
+    "dip": 0.5933,
+    "r3": 0.8426,
+    "r4": 0.903
+   },
+   "height_factor": 0.9915,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 2500.0,
+     "seq": 4,
+     "h0": 0.0,
+     "delay_ms": 3.6142,
+     "rise_ms": 145.2608,
+     "p0": 0.6092,
+     "p1": 0.6978,
+     "dip": 0.5777,
+     "r3": 0.8344,
+     "r4": 0.8983,
+     "end_ms": 2645.2608,
+     "event_frame": 75.0,
+     "end_frame": 79.358
+    },
+    {
+     "kind": "fall",
+     "t_ms": 3500.0,
+     "seq": 6,
+     "h0": 1.0,
+     "fall_ms": 53.1987,
+     "end_ms": 3553.1987,
+     "event_frame": 105.0,
+     "end_frame": 106.596
+    }
+   ]
+  },
+  "8,6": {
+   "character": {
+    "late": false,
+    "delay_ms": 1.88,
+    "rise_ms": 164.7892,
+    "fall_ms": 41.6672,
+    "p0": 0.7836,
+    "p1": 0.8583,
+    "dip": 0.6889,
+    "r3": 0.7889,
+    "r4": 0.9195
+   },
+   "height_factor": 1.0806,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 3000.0,
+     "seq": 5,
+     "h0": 0.0,
+     "delay_ms": 2.8805,
+     "rise_ms": 162.1197,
+     "p0": 0.7855,
+     "p1": 0.8544,
+     "dip": 0.6559,
+     "r3": 0.7854,
+     "r4": 0.9234,
+     "end_ms": 3162.1197,
+     "event_frame": 90.0,
+     "end_frame": 94.864
+    },
+    {
+     "kind": "fall",
+     "t_ms": 4000.0,
+     "seq": 7,
+     "h0": 1.0,
+     "fall_ms": 35.0726,
+     "end_ms": 4035.0726,
+     "event_frame": 120.0,
+     "end_frame": 121.052
+    }
+   ]
+  },
+  "8,7": {
+   "character": {
+    "late": false,
+    "delay_ms": 2.0788,
+    "rise_ms": 160.4167,
+    "fall_ms": 39.586,
+    "p0": 0.8962,
+    "p1": 0.95,
+    "dip": 0.5484,
+    "r3": 0.8639,
+    "r4": 0.9241
+   },
+   "height_factor": 0.9629,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 3000.0,
+     "seq": 5,
+     "h0": 0.0,
+     "delay_ms": 0.8738,
+     "rise_ms": 158.4392,
+     "p0": 0.8223,
+     "p1": 0.9329,
+     "dip": 0.5847,
+     "r3": 0.8746,
+     "r4": 0.9053,
+     "end_ms": 3158.4392,
+     "event_frame": 90.0,
+     "end_frame": 94.753
+    },
+    {
+     "kind": "fall",
+     "t_ms": 4000.0,
+     "seq": 7,
+     "h0": 1.0,
+     "fall_ms": 40.5078,
+     "end_ms": 4040.5078,
+     "event_frame": 120.0,
+     "end_frame": 121.215
+    }
+   ]
+  },
+  "9,6": {
+   "character": {
+    "late": false,
+    "delay_ms": 7.8247,
+    "rise_ms": 152.4468,
+    "fall_ms": 48.2485,
+    "p0": 0.7968,
+    "p1": 0.8395,
+    "dip": 0.5237,
+    "r3": 0.7379,
+    "r4": 0.9637
+   },
+   "height_factor": 0.8825,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 3500.0,
+     "seq": 6,
+     "h0": 0.0,
+     "delay_ms": 7.7194,
+     "rise_ms": 156.9325,
+     "p0": 0.7468,
+     "p1": 0.8392,
+     "dip": 0.4827,
+     "r3": 0.7618,
+     "r4": 0.9557,
+     "end_ms": 3656.9325,
+     "event_frame": 105.0,
+     "end_frame": 109.708
+    },
+    {
+     "kind": "fall",
+     "t_ms": 4500.0,
+     "seq": 8,
+     "h0": 1.0,
+     "fall_ms": 46.3623,
+     "end_ms": 4546.3623,
+     "event_frame": 135.0,
+     "end_frame": 136.391
+    }
+   ]
+  },
+  "9,7": {
+   "character": {
+    "late": false,
+    "delay_ms": 1.8885,
+    "rise_ms": 154.4581,
+    "fall_ms": 38.2023,
+    "p0": 0.6253,
+    "p1": 0.6737,
+    "dip": 0.5737,
+    "r3": 0.892,
+    "r4": 0.9545
+   },
+   "height_factor": 0.964,
+   "actuations": [
+    {
+     "kind": "rise",
+     "t_ms": 3500.0,
+     "seq": 6,
+     "h0": 0.0,
+     "delay_ms": 2.9404,
+     "rise_ms": 159.8223,
+     "p0": 0.6069,
+     "p1": 0.6947,
+     "dip": 0.5345,
+     "r3": 0.8839,
+     "r4": 0.9755,
+     "end_ms": 3659.8223,
+     "event_frame": 105.0,
+     "end_frame": 109.795
+    },
+    {
+     "kind": "fall",
+     "t_ms": 4500.0,
+     "seq": 8,
+     "h0": 1.0,
+     "fall_ms": 43.9585,
+     "end_ms": 4543.9585,
+     "event_frame": 135.0,
+     "end_frame": 136.319
+    }
+   ]
+  }
+ }
+}

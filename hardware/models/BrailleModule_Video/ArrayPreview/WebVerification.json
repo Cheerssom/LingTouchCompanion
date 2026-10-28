@@ -1,9 +1,0 @@
-{
-  "scope": "Point-pattern editing and preview; production output is Cycles",
-  "offline_html_assets_checked": true,
-  "embedded_glb_sha256": "a4c6a77de7d6881bab234e50a3771b328b8a3e7a755a9140d60cacbd88e74047",
-  "embedded_motion_matches_shared_profile": true,
-  "embedded_controls_match_source": true,
-  "production_scene_sha256": "e651debc46203b0066c5dd15a02385429526eeeb7a610991792da368b6857e7e",
-  "browser_interactions": "Existing control and viewer logic retained; no new interactive-browser test in this migration"
-}

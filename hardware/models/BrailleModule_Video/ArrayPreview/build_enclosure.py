@@ -283,6 +283,6 @@ def main():
     # regeneration, so this generator cannot silently restore the old render.
     from argparse import Namespace
     from render_cycles import prepare
-    prepare(Namespace(sequence=None, fps=30, tail=1, width=1920, height=1080, samples=192))
+    prepare(Namespace(sequence=None, fps=30, tail=1, width=1920, height=1080, samples=192, near_elevation=None))
 
 if __name__=='__main__':main()

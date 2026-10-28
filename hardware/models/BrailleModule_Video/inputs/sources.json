@@ -1,0 +1,51 @@
+{
+  "purpose": "Retained source references. Physical prototype photographs and third-party filming references have different evidentiary roles.",
+  "files": [
+    {
+      "file": "Braille_Module_Reference.pdf",
+      "kind": "Supplier dimension drawing supplied by Hsinlung",
+      "sha256": "1023de23891d9c1ee49d44fdf72487f79399e4074987c87cec90a39941b0b1b0"
+    },
+    {
+      "file": "Khon_TSA06131_Reference.pdf",
+      "kind": "Retained switch supplier drawing",
+      "sha256": "d18fc0609bd93e7601137617d9ae7c591405a74ac9ee97d04312310c6e657f71"
+    },
+    {
+      "file": "Touchpoint_Reference.jpg",
+      "kind": "Supplied physical-module photograph",
+      "sha256": "fbafe393eb396e49bdb803dc363fbbd4dec2f568feff5f566e5d7c7469ee8d71"
+    },
+    {
+      "file": "PhysicalMotionReference.mp4",
+      "kind": "Supplied real module motion video",
+      "sha256": "9686720a2402b61945cb56dabc4c8b217fc0a17252e21d0b4639f05aba3d2265"
+    },
+    {
+      "file": "PrototypeSurface_A.jpeg",
+      "kind": "Prototype photograph extracted unchanged from the supplied paper deck",
+      "original_media": "image11.jpeg",
+      "previous_copy": "02_PrototypeSurface_A.jpeg",
+      "sha256": "bdb65f2cc0d2db9d79b873d44edf8cf3ce69cbede1d901395a89ccf70a63a1c0"
+    },
+    {
+      "file": "PrototypeSurface_B.jpeg",
+      "kind": "Prototype photograph extracted unchanged from the supplied paper deck",
+      "original_media": "image15.jpeg",
+      "previous_copy": "03_PrototypeSurface_B.jpeg",
+      "sha256": "75859ba76312244018171bb611b6ef56c19dad5cc36c44bb603134e8f22b61b0"
+    },
+    {
+      "file": "TI_DotPad_085s.png",
+      "kind": "Third-party filmed-device screenshot at 85 seconds; filming reference only",
+      "source": "https://www.ti.com/video/6342172742112",
+      "sha256": "8cd4124c1ae4b4794d419717252a6f3ce1365f0dac1e411d2ead572774380c8c"
+    },
+    {
+      "file": "TI_82-95s_Pin_Macro_Refresh.mp4",
+      "kind": "Third-party filmed-device excerpt, 82-95 seconds; filming reference only",
+      "source": "https://www.ti.com/video/6342172742112",
+      "sha256": "8feb6e28fcee5ac58892e808493d8a5f42ac946e5b6c911e9dc3a8cb6ce86765"
+    }
+  ]
+}

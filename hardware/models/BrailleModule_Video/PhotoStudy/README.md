@@ -1,35 +1,27 @@
-# Photographic module study
+# Module appearance study sources
 
-One clean photographic material and lighting setup, with two camera views:
+`ReferenceStudy.blend` and `build.py` retain an editable appearance trial for
+the single module. This study has not been accepted for photographic realism
+or complete device assembly; the former rendered stills are no longer a
+completed delivery.
 
-- `ReferenceStudy.png`: 1200 x 1600, composition based on the supplied physical-module photograph.
-- `VideoCloseup.png`: 1920 x 1080, a closer horizontal view for assessing later video footage.
-- `ReferenceStudy.blend`: editable, self-contained scene containing both cameras.
-- `Verification.json`: geometry, source and render checks.
-- `build.py`: reproducible scene setup.
+The source chain is `../BrailleModule.blend` → `build.py` →
+`ReferenceStudy.blend`. The builder keeps the source module's separate parts
+and retracted dots, then adds trial materials, lighting, a table and two
+cameras. Material, lighting and camera choices are visual estimates.
 
-The study uses the accepted model in `../BrailleModule.blend`. Its 22 component
-meshes and local positions remain unchanged. All six dots stay retracted and
-independent. There is no animation, dirt, wear or image compositing. The whole
-assembly rests on its back broad face on a pale laminate table.
+The original supplier drawing and physical-module photograph are in
+`../inputs/Braille_Module_Reference.pdf` and `../inputs/Touchpoint_Reference.jpg`.
+The [user-provided Dot Pad video](https://www.youtube.com/watch?v=iSmRM2PUBzA)
+was an additional photography reference, not a specification for this module.
 
-Clean moulded-polymer roughness and microrelief, grey-white smooth tactile
-heads, directional lighting and the table's reflected light determine the
-appearance. Perspective cameras and optical depth of field provide the two
-views. The top's grey reflection does not represent a change to a metal shell.
-These are appearance trials; single-image evidence does not establish the exact
-physical material, roughness or lens of the reference.
-
-References: the supplied `../inputs/Touchpoint_Reference.jpg`, the supplier PDF
-for geometry, and [Dot Inc's supplied video](https://www.youtube.com/watch?v=iSmRM2PUBzA).
-The video was inspected in the browser at 6, 12, 18, 25, 32, 45 and 51 seconds;
-the low-angle view around 6 seconds was especially useful for surface highlights.
-Dot Pad imagery informs photography only, not this module's design.
-
-Rebuild from the repository root using the existing Blender runtime:
+To rebuild the study from the repository root with the existing Blender
+runtime (this also generates trial renders):
 
 ```powershell
 & '3mf/.runtime/structural-runtime/Scripts/python.exe' -B 'BrailleModule_Video/PhotoStudy/build.py' --final
 ```
 
-The original `BrailleModule/` and frozen parent-folder source files are preserved.
+The source model and original references remain separate from the generated
+study. Source preservation and numerical checks do not establish resemblance
+to the physical module or fit inside the handle.

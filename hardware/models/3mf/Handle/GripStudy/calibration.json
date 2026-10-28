@@ -1,0 +1,26 @@
+{
+  "hand_length_mm": 180.0,
+  "palm_breadth_mm": 78.0,
+  "palm_thickness_datum_mm": 27.6,
+  "source_to_mm_xyz": [
+    8.253877210992565,
+    8.245676076608719,
+    9.272059895769969
+  ],
+  "wrist_landmark_source": [
+    -1.0785419940948486,
+    0.18815560638904572,
+    3.404228687286377
+  ],
+  "middle_tip_source": [
+    -3.198852062225342,
+    -0.2574872076511383,
+    22.72243881225586
+  ],
+  "definition": "Model wrist landmark to middle fingertip projected along the open-hand axis; palm breadth/thickness measured in MCP band excluding thumb. Generic adult calibration, not an individual scan.",
+  "reference": "https://thescipub.com/pdf/ajeassp.2016.877.888.pdf",
+  "changes": "Source LEFT hand reflected together with the complete rig to form a true RIGHT hand; adult calibration, neutral material and independent FK. Original source retained unchanged.",
+  "source_handedness": "left",
+  "delivered_handedness": "right",
+  "handedness_verification": "Actual palm-facing view: thumb at image right, little finger at image left. Full rig, skin and nails are reflected together; posed hand sits on CAD-negative-Z side."
+}

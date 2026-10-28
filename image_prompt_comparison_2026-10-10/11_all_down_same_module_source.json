@@ -1,0 +1,51 @@
+{
+  "image": "11_all_down_same_module.png",
+  "kind": "Edited/composited all-retracted counterpart of 10_centered_original_scene.png",
+  "is_unedited_photograph": false,
+  "base": "10_centered_original_scene.png",
+  "base_sha256": "0c05f7e572d409f55472421c2e3209a6e973bf83310df951c1483c6e2419aafb",
+  "image_sha256": "7ba0a4d0e8bd4d0eb7ccd3e69afbb049e5f7ebc2ce99566cc8e12cb4cc86b0f8",
+  "dimensions": [
+    1086,
+    1448
+  ],
+  "method": "Four raised corner regions of the middle-column third module were replaced using the two lowered middle pins from that same module in the base image; the viewpoint and other image pixels are retained.",
+  "lowered_donors": [
+    [
+      545,
+      552
+    ],
+    [
+      545,
+      552
+    ],
+    [
+      543,
+      607
+    ],
+    [
+      543,
+      607
+    ]
+  ],
+  "modified_corner_centers": [
+    [
+      488,
+      552
+    ],
+    [
+      601,
+      552
+    ],
+    [
+      485,
+      607
+    ],
+    [
+      600,
+      607
+    ]
+  ],
+  "restoration": "Original PNG bytes recovered from the earliest saved image output, before later candidates overwrote this filename.",
+  "caption": "Edited/composited prototype illustration; not an unedited experimental photograph."
+}
